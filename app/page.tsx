@@ -42,11 +42,38 @@ export default function Home() {
             </Button>
           </div>
 
+          {/* Social Links Section */}
           <div className="flex gap-6 mt-8 text-sm text-slate-500">
-            <a href="https://www.linkedin.com/in/yourprofile" className="hover:text-slate-900">LinkedIn</a>
-            <a href="https://your-substack.com" className="hover:text-slate-900">Substack</a>
-            <a href="https://github.com/yourusername" className="hover:text-slate-900">GitHub</a>
-            <a href="mailto:dynamicsofanaisteroid@gmail.com" className="hover:text-slate-900">Email</a>
+            <a
+              href="https://www.linkedin.com/in/farah-zamir-956659144"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-900 transition-colors"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://dynamicsofanaisteroid.substack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-900 transition-colors"
+            >
+              Substack
+            </a>
+            <a
+              href="https://github.com/dynamicsofanaisteroid"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-900 transition-colors"
+            >
+              GitHub
+            </a>
+            <a
+              href="mailto:dynamicsofanaisteroid@gmail.com"
+              className="hover:text-slate-900 transition-colors"
+            >
+              Email
+            </a>
           </div>
         </div>
       </div>
