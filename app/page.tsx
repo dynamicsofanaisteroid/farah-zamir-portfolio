@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
+    // Force new deployment - social links fix 
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="border-b">
