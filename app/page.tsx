@@ -7,11 +7,11 @@ export default function Home() {
       {/* Dark Header */}
       <nav className="bg-[#1e5721] text-white">
         <div className="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
-          <Link href="/" className="font-serif text-4xl tracking-tight text-white">
+          <Link href="/" className="font-serif text-4xl tracking-[-1.5px] text-white">
             Farah Zamir
           </Link>
 
-          <div className="flex gap-8 text-sm font-medium text-white/90">
+          <div className="flex gap-8 text-sm font-medium tracking-wide text-white/90">
             <Link href="/about" className="hover:text-white transition-colors">About</Link>
             <Link href="/projects" className="hover:text-white transition-colors">Projects</Link>
             <Link href="/research" className="hover:text-white transition-colors">Research</Link>
@@ -26,7 +26,7 @@ export default function Home() {
           
           {/* Left Column - Main Bio */}
           <div className="md:col-span-3">
-            <h1 className="text-6xl font-semibold tracking-tighter text-[#301f1f] leading-none mb-7">
+            <h1 className="text-6xl font-semibold tracking-[-2.5px] text-[#301f1f] leading-none mb-7">
               Hey, I&apos;m{" "}
               <span className="relative inline-block">
                 Farah.
@@ -35,28 +35,28 @@ export default function Home() {
               </span>
             </h1>
 
-            <div className="space-y-6 text-[16px] leading-relaxed text-[#571e38]">
+            <div className="space-y-6 text-[16.5px] leading-relaxed tracking-[-0.2px] text-[#571e38]">
               <p>
-                I&apos;m an <span className="font-semibold underline decoration-[#571e38]/70">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
+                I&apos;m an <span className="font-semibold">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
               </p>
 
               <p>
-                My goals are in <span className="font-semibold underline decoration-[#571e38]/70">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
+                My goals are in <span className="font-semibold">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
               </p>
 
               <p>
-                My main research interest is in <span className="font-semibold underline decoration-[#571e38]/70">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold underline decoration-[#571e38]/70 hover:text-[#1e5721]">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
+                My main research interest is in <span className="font-semibold">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold hover:text-[#1e5721]">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
               </p>
             </div>
           </div>
 
-          {/* Right Column - CTAs (More relaxed / floating) */}
+          {/* Right Column - CTAs */}
           <div className="md:col-span-2 pt-2 space-y-8">
             <div>
               <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
                 Find out more about my work history and experience here:
               </p>
-              <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-7 py-5 text-sm rounded-lg">
+              <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-7 py-5 text-sm tracking-wide">
                 <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
               </Button>
             </div>
@@ -65,7 +65,7 @@ export default function Home() {
               <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
                 Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:
               </p>
-              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm rounded-lg">
+              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm tracking-wide">
                 <Link href="/projects">Explore Projects</Link>
               </Button>
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
               <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
                 My research proposal, as well as any other work I&apos;ve written, is available here:
               </p>
-              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm rounded-lg">
+              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm tracking-wide">
                 <Link href="/research">Research Interests</Link>
               </Button>
             </div>
@@ -87,25 +87,25 @@ export default function Home() {
             You can find examples of my work, long-form writing, and code here. I&apos;m always open to opportunities in technical AI governance and Agentic AI particularly — shoot me an email or reach out via any of the links below.
           </p>
 
-          <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 mb-8">
+          <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 mb-8 tracking-wide">
             <Link href="/contact">Talk to Me</Link>
           </Button>
 
           <div className="flex justify-center gap-3">
             <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
               LinkedIn
             </a>
             <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
               Substack
             </a>
             <a href="https://github.com/dynamicsofanaisteroid" target="_blank" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
               GitHub
             </a>
             <a href="mailto:dynamicsofanaisteroid@gmail.com" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
               Email
             </a>
           </div>
