@@ -4,28 +4,28 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f8f4f0]">
-      {/* Dark Header */}
-      <nav className="bg-[#1e5721] text-white">
-        <div className="max-w-5xl mx-auto px-6 py-5">
-          <div className="flex items-end justify-between">
-            {/* Logo + Title */}
-            <div>
-              <Link href="/" className="font-serif text-4xl tracking-tight text-[#ecf6de]">
-                Farah Zamir
-              </Link>
-              <div className="text-sm text-[#ecf6de] tracking-[3px] mt-0.5">AI ENGINEER</div>
-            </div>
+{/* Dark Header */}
+<nav className="bg-[#1e5721] text-white">
+  <div className="max-w-5xl mx-auto px-6 py-5">
+    <div className="flex items-end justify-between">
+      {/* Logo + Title */}
+      <div>
+        <Link href="/" className="font-serif text-4xl tracking-tight text-white">
+          Farah Zamir
+        </Link>
+        <div className="text-sm text-white/80 tracking-[3px] mt-0.5">AI ENGINEER</div>
+      </div>
 
-            {/* Navigation */}
-            <div className="flex gap-8 text-sm font-medium">
-              <Link href="/about" className="hover:text-[#ecf6de] transition-colors">About</Link>
-              <Link href="/projects" className="hover:text-[#ecf6de] transition-colors">Projects</Link>
-              <Link href="/research" className="hover:text-[#ecf6de] transition-colors">Research</Link>
-              <Link href="/contact" className="hover:text-[#ecf6de] transition-colors">Contact</Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      {/* Navigation */}
+      <div className="flex gap-8 text-sm font-medium text-white/90">
+        <Link href="/about" className="hover:text-white transition-colors">About</Link>
+        <Link href="/projects" className="hover:text-white transition-colors">Projects</Link>
+        <Link href="/research" className="hover:text-white transition-colors">Research</Link>
+        <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+      </div>
+    </div>
+  </div>
+</nav>
 
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto px-6 pt-16 pb-12">
