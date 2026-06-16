@@ -64,4 +64,53 @@ export default function Home() {
             <div>
               <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
                 Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:
-              </
+              </p>
+              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg">
+                <Link href="/projects">Explore Projects</Link>
+              </Button>
+            </div>
+
+            <div>
+              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                My research proposal, as well as any other work I&apos;ve written, is available here:
+              </p>
+              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg">
+                <Link href="/research">Research Interests</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="mt-16 max-w-2xl mx-auto text-center">
+          <p className="text-[#571e38] mb-6 text-[15px] leading-relaxed">
+            You can find examples of my work, long-form writing, and code here. I&apos;m always open to opportunities in technical AI governance and Agentic AI particularly — shoot me an email or reach out via any of the links below.
+          </p>
+
+          <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 mb-8 tracking-wide">
+            <Link href="/contact">Talk to Me</Link>
+          </Button>
+
+          <div className="flex justify-center gap-3">
+            <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
+              LinkedIn
+            </a>
+            <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
+              Substack
+            </a>
+            <a href="https://github.com/dynamicsofanaisteroid" target="_blank" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
+              GitHub
+            </a>
+            <a href="mailto:dynamicsofanaisteroid@gmail.com" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
