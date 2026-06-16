@@ -24,7 +24,7 @@ export default function Home() {
       <div className="max-w-5xl mx-auto px-6 pt-16 pb-16">
         <div className="grid md:grid-cols-5 gap-x-16 gap-y-14 items-start">
           
-          {/* Left Column - Main Bio (Bigger + Stronger) */}
+          {/* Left Column - Main Bio */}
           <div className="md:col-span-3">
             <h1 className="text-[64px] font-semibold tracking-[-3px] text-[#301f1f] leading-none mb-8">
               Hey, I&apos;m{" "}
@@ -37,46 +37,48 @@ export default function Home() {
 
             <div className="space-y-7 text-[17px] leading-relaxed tracking-[-0.3px] text-[#571e38]">
               <p>
-                I&apos;m an <span className="font-semibold">AI engineer</span>  that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
+                I&apos;m an <span className="font-semibold underline decoration-[#571e38]/70">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
               </p>
 
               <p>
-                My goals are in <span className="font-semibold">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
+                My goals are in <span className="font-semibold underline decoration-[#571e38]/70">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
               </p>
 
               <p>
-                My main research interest is in <span className="font-semibold">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold hover:text-[#1e5721]">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
+                My main research interest is in <span className="font-semibold underline decoration-[#571e38]/70">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold underline decoration-[#571e38]/70 hover:text-[#1e5721]">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
               </p>
             </div>
           </div>
 
-          {/* Right Column - CTAs (Friendlier + More Relaxed) */}
-          <div className="md:col-span-2 pt-3 space-y-9">
-            <div>
-              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
-                Find out more about my work history and experience here:
-              </p>
-              <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg">
-                <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
-              </Button>
-            </div>
+          {/* Right Column - CTAs with white background */}
+          <div className="md:col-span-2">
+            <div className="bg-white border border-[#e8d7b5] rounded-2xl p-6 space-y-8">
+              <div>
+                <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                  Find out more about my work history and experience here:
+                </p>
+                <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg w-full justify-center">
+                  <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
+                </Button>
+              </div>
 
-            <div>
-              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
-                Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:
-              </p>
-              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg">
-                <Link href="/projects">Explore Projects</Link>
-              </Button>
-            </div>
+              <div>
+                <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                  Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:
+                </p>
+                <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg w-full justify-center">
+                  <Link href="/projects">Explore Projects</Link>
+                </Button>
+              </div>
 
-            <div>
-              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
-                My research proposal, as well as any other work I&apos;ve written, is available here:
-              </p>
-              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg">
-                <Link href="/research">Research Interests</Link>
-              </Button>
+              <div>
+                <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                  My research proposal, as well as any other work I&apos;ve written, is available here:
+                </p>
+                <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg w-full justify-center">
+                  <Link href="/research">Research Interests</Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
