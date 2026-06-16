@@ -37,7 +37,7 @@ export default function Home() {
 
             <div className="space-y-7 text-[17px] leading-relaxed tracking-[-0.3px] text-[#571e38]">
               <p>
-                I&apos;m an <span className="font-semibold">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
+                I&apos;m an <span className="font-semibold">AI engineer</span>  that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
               </p>
 
               <p>
