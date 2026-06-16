@@ -23,7 +23,7 @@ export default function Home() {
       <div className="max-w-5xl mx-auto px-6 pt-20 pb-16">
         <div className="max-w-3xl">
           <div className="inline-block px-4 py-1.5 rounded-full bg-slate-100 text-sm mb-6">
-            AI Engineer • Technical AI Governance • Conservation
+            AI Engineer • Technical AI Governance • Conservation & Preservation • Agentic AI 
           </div>
           
           <h1 className="text-6xl font-semibold tracking-tight mb-6">
@@ -31,9 +31,8 @@ export default function Home() {
           </h1>
           
           <p className="text-2xl text-slate-600 mb-8">
-            Building production evaluation infrastructure and governance tools 
-            for frontier AI - while drawing on a background in national-scale 
-            information preservation and sensitive data protection.
+            Hey there, I'm Farah. I'm an AI Engineer specializing in technical AI governance and responsible deployment of agentic systems. I'm also 
+            passionate about conservation and preservation, and I love exploring the intersection of AI and environmental sustainability. 
           </p>
 
           <div className="flex flex-wrap gap-4">
