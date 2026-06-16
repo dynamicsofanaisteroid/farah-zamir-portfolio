@@ -30,7 +30,7 @@ export default function Home() {
           
           <p className="text-2xl text-slate-600 mb-8">
             Building production evaluation infrastructure and governance tools 
-            for frontier AI — while drawing on a background in national-scale 
+            for frontier AI - while drawing on a background in national-scale 
             information preservation and sensitive data protection.
           </p>
 
@@ -89,7 +89,7 @@ export default function Home() {
       </p>
       
       <p>
-        Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart — this background gave me a deep appreciation for accountability, risk, and building systems designed to stand up to scrutiny over time.
+        Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart - this background gave me a deep appreciation for accountability, risk, and building systems designed to stand up to scrutiny over time.
       </p>
       
       <p>
@@ -101,7 +101,7 @@ export default function Home() {
       </p>
       
       <p>
-        I’m drawn to opportunities where I can combine my engineering experience with a preservation-oriented mindset to help organisations deploy AI responsibly — especially in high-stakes or public-interest contexts. Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day.
+        I’m drawn to opportunities where I can combine my engineering experience with a preservation-oriented mindset to help organisations deploy AI responsibly - especially in high-stakes or public-interest contexts. Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day.
       </p>
     </div>
   </div>
