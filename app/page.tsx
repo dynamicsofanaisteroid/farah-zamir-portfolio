@@ -1,21 +1,22 @@
 import { Button } from "@/components/ui/button"
+import { Link } from "lucide-react"
 
 export default function Home() {
   return (
     // Force new deployment - social links fix 
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="border-b">
-        <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="font-semibold text-xl">Farah Zamir</div>
-          <div className="flex gap-6 text-sm">
-            <a href="#about" className="hover:underline">About</a>
-            <a href="#projects" className="hover:underline">Projects</a>
-            <a href="#research" className="hover:underline">Research</a>
-            <a href="#contact" className="hover:underline">Contact</a>
-          </div>
-        </div>
-      </nav>
+     <nav className="border-b">
+  <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+    <Link href="/" className="font-semibold text-xl">Farah Zamir</Link>
+    <div className="flex gap-6 text-sm">
+      <Link href="/about" className="hover:underline">About</Link>
+      <Link href="/projects" className="hover:underline">Projects</Link>
+      <Link href="/research" className="hover:underline">Research</Link>
+      <Link href="#contact" className="hover:underline">Contact</Link>
+    </div>
+  </div>
+</nav>
 
       {/* Hero Section */}
       <div className="max-w-5xl mx-auto px-6 pt-20 pb-16">
