@@ -4,107 +4,109 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f8f4f0]">
-{/* Dark Header */}
-<nav className="bg-[#1e5721] text-white">
-  <div className="max-w-5xl mx-auto px-6 py-5">
-    <div className="flex items-end justify-between">
-      {/* Logo + Title */}
-      <div>
-        <Link href="/" className="font-serif text-4xl tracking-tight text-white">
-          Farah Zamir
-        </Link>
-      </div>
+      {/* Dark Header */}
+      <nav className="bg-[#1e5721] text-white">
+        <div className="max-w-5xl mx-auto px-6 py-5">
+          <div className="flex items-end justify-between">
+            <div>
+              <Link href="/" className="font-serif text-4xl tracking-tight text-white">
+                Farah Zamir
+              </Link>
+              <div className="text-sm text-white/80 tracking-[3px] mt-0.5">AI ENGINEER</div>
+            </div>
 
-      {/* Navigation */}
-      <div className="flex gap-8 text-sm font-medium text-white/90">
-        <Link href="/about" className="hover:text-white transition-colors">About</Link>
-        <Link href="/projects" className="hover:text-white transition-colors">Projects</Link>
-        <Link href="/research" className="hover:text-white transition-colors">Research</Link>
-        <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
-      </div>
-    </div>
-  </div>
-</nav>
-
-      {/* Hero Section */}
-      <div className="max-w-5xl mx-auto px-6 pt-16 pb-12">
-        <div className="max-w-3xl">
-          <h1 className="text-7xl font-semibold tracking-tighter text-[#301f1f] leading-none mb-2">
-            Hey, I&apos;m{" "}
-            <span className="relative inline-block">
-              Farah.
-              <span className="absolute -bottom-1 left-0 w-full h-3 bg-[#571e38] -rotate-2 rounded-sm opacity-80"></span>
-              <span className="absolute -top-1 -right-2 text-2xl">✧</span>
-            </span>
-          </h1>
-
-          <p className="text-2xl text-[#571e38] leading-snug mt-6 max-w-2xl">
-            I'm an AI engineer that builds production- grade evaluation infrastucture + governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I've worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards. You can find out more about my work in the Projects tab above.
-          <br/>
-          My goals are in environmental conservation, and my lodestar is to build AI systems that are safe, auditable, and accountable. I write about my work and research interests on my <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" className="underline text-[#571e38] hover:text-[#1e5721] transition-colors">Substack</a>.
-          <br/> 
-          My main research interest is in AI for Public Good. My research proposal, the Synapse Warehouse, proposes a Neuro-AI Infrastructure inspired by the human brain's architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage - linked in the Research tab above.
-          </p>
-          {/* CTA Buttons */}
-          <div className="flex flex-wrap gap-4 mt-10">
-            <Button asChild size="lg" className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 text-base">
-              <Link href="/projects">Explore Projects</Link>
-            </Button>
-            <Button asChild size="lg" className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 text-base">
-              <Link href="/contact">Talk to Me</Link>
-            </Button>
-            <Button asChild size="lg" className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 text-base">
-              <Link href="/research">Research Interests</Link>
-            </Button>
-          </div>
-
-          {/* Social Links - Right aligned */}
-          <div className="flex gap-3 mt-10 justify-start">
-            <a 
-              href="https://www.linkedin.com/in/farah-zamir-956659144" 
-              target="_blank"
-              className="px-4 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-md hover:bg-[#571e38] hover:text-white transition-colors"
-            >
-              LinkedIn
-            </a>
-            <a 
-              href="https://dynamicsofanaisteroid.substack.com/" 
-              target="_blank"
-              className="px-4 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-md hover:bg-[#571e38] hover:text-white transition-colors"
-            >
-              Substack
-            </a>
-            <a 
-              href="https://github.com/dynamicsofanaisteroid" 
-              target="_blank"
-              className="px-4 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-md hover:bg-[#571e38] hover:text-white transition-colors"
-            >
-              GitHub
-            </a>
-            <a 
-              href="mailto:dynamicsofanaisteroid@gmail.com"
-              className="px-4 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-md hover:bg-[#571e38] hover:text-white transition-colors"
-            >
-              Email
-            </a>
+            <div className="flex gap-8 text-sm font-medium text-white/90">
+              <Link href="/about" className="hover:text-white transition-colors">About</Link>
+              <Link href="/projects" className="hover:text-white transition-colors">Projects</Link>
+              <Link href="/research" className="hover:text-white transition-colors">Research</Link>
+              <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
 
-      {/* Quick Highlights */}
-      <div className="max-w-5xl mx-auto px-6 pb-20">
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-white border border-[#e8d7b5] rounded-2xl p-6">
-            <h3 className="font-semibold text-lg mb-2 text-[#1e5721]">Production Governance</h3>
-            <p className="text-[#571e38] text-sm">Built and deployed governance systems for live agentic AI at Virgin Atlantic, including evaluation harnesses and pre-execution safeguards.</p>
+      {/* Hero Section */}
+      <div className="max-w-5xl mx-auto px-6 pt-14 pb-12">
+        <div className="grid md:grid-cols-5 gap-x-12 gap-y-10 items-start">
+          
+          {/* Left Column - Bio */}
+          <div className="md:col-span-3">
+            <h1 className="text-6xl font-semibold tracking-tighter text-[#301f1f] leading-none mb-6">
+              Hey, I&apos;m{" "}
+              <span className="relative inline-block">
+                Farah.
+                <span className="absolute -bottom-1 left-0 w-[105%] h-[9px] bg-[#571e38] -rotate-[3deg] rounded-sm"></span>
+                <span className="absolute -top-2 -right-1 text-2xl text-[#571e38]">✧</span>
+              </span>
+            </h1>
+
+            <div className="space-y-5 text-[15px] leading-relaxed text-[#571e38]">
+              <p>
+                I&apos;m an <span className="font-semibold underline decoration-[#571e38]/60">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
+              </p>
+
+              <p>
+                My goals are in <span className="font-semibold underline decoration-[#571e38]/60">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
+              </p>
+
+              <p>
+                My main research interest is in <span className="font-semibold underline decoration-[#571e38]/60">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold underline decoration-[#571e38]/60 hover:text-[#1e5721]">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
+              </p>
+            </div>
           </div>
-          <div className="bg-white border border-[#e8d7b5] rounded-2xl p-6">
-            <h3 className="font-semibold text-lg mb-2 text-[#1e5721]">Technical AI Governance</h3>
-            <p className="text-[#571e38] text-sm">Focused on practical mechanisms for agent safety, auditability, and responsible deployment of frontier AI systems.</p>
+
+          {/* Right Column - CTAs */}
+          <div className="md:col-span-2 space-y-6 pt-2">
+            <div>
+              <p className="text-sm text-[#571e38] mb-2">Find out more about my work history and experience here:</p>
+              <Button asChild className="w-full bg-black hover:bg-[#301f1f] text-white py-6 text-base">
+                <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
+              </Button>
+            </div>
+
+            <div>
+              <p className="text-sm text-[#571e38] mb-2">Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:</p>
+              <Button asChild className="w-full bg-[#1e5721] hover:bg-[#16451a] text-white py-6 text-base">
+                <Link href="/projects">Explore Projects</Link>
+              </Button>
+            </div>
+
+            <div>
+              <p className="text-sm text-[#571e38] mb-2">My research proposal, as well as any other work I&apos;ve written, is available here:</p>
+              <Button asChild className="w-full bg-[#1e5721] hover:bg-[#16451a] text-white py-6 text-base">
+                <Link href="/research">Research Interests</Link>
+              </Button>
+            </div>
           </div>
-          <div className="bg-white border border-[#e8d7b5] rounded-2xl p-6">
-            <h3 className="font-semibold text-lg mb-2 text-[#1e5721]">Preservation Mindset</h3>
-            <p className="text-[#571e38] text-sm">Background in national archives and information preservation informs a long-term, accountable approach to building AI systems.</p>
+        </div>
+
+        {/* Bottom CTA + Social */}
+        <div className="mt-14 text-center">
+          <p className="text-[#571e38] mb-4 max-w-md mx-auto">
+            You can find examples of my work, long-form writing, and code here. I&apos;m always open to opportunities in technical AI governance and Agentic AI particularly — shoot me an email or reach out via any of the links below.
+          </p>
+
+          <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 mb-8">
+            <Link href="/contact">Talk to Me</Link>
+          </Button>
+
+          <div className="flex justify-center gap-3">
+            <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+              LinkedIn
+            </a>
+            <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+              Substack
+            </a>
+            <a href="https://github.com/dynamicsofanaisteroid" target="_blank" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+              GitHub
+            </a>
+            <a href="mailto:dynamicsofanaisteroid@gmail.com" 
+               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors">
+              Email
+            </a>
           </div>
         </div>
       </div>
