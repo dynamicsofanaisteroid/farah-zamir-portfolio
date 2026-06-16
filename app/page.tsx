@@ -21,21 +21,21 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <div className="max-w-5xl mx-auto px-6 pt-16 pb-14">
-        <div className="grid md:grid-cols-5 gap-x-14 gap-y-12 items-start">
+      <div className="max-w-5xl mx-auto px-6 pt-16 pb-16">
+        <div className="grid md:grid-cols-5 gap-x-16 gap-y-14 items-start">
           
-          {/* Left Column - Main Bio */}
+          {/* Left Column - Main Bio (Bigger + Stronger) */}
           <div className="md:col-span-3">
-            <h1 className="text-6xl font-semibold tracking-[-2.5px] text-[#301f1f] leading-none mb-7">
+            <h1 className="text-[64px] font-semibold tracking-[-3px] text-[#301f1f] leading-none mb-8">
               Hey, I&apos;m{" "}
               <span className="relative inline-block">
                 Farah.
-                <span className="absolute -bottom-1 left-0 w-[105%] h-[9px] bg-[#571e38] -rotate-[3deg] rounded-sm"></span>
-                <span className="absolute -top-2 -right-1 text-2xl text-[#571e38]">✧</span>
+                <span className="absolute -bottom-1 left-0 w-[105%] h-[10px] bg-[#571e38] -rotate-[3deg] rounded-sm"></span>
+                <span className="absolute -top-2 -right-1 text-3xl text-[#571e38]">✧</span>
               </span>
             </h1>
 
-            <div className="space-y-6 text-[16.5px] leading-relaxed tracking-[-0.2px] text-[#571e38]">
+            <div className="space-y-7 text-[17px] leading-relaxed tracking-[-0.3px] text-[#571e38]">
               <p>
                 I&apos;m an <span className="font-semibold">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
               </p>
@@ -50,67 +50,18 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Column - CTAs */}
-          <div className="md:col-span-2 pt-2 space-y-8">
+          {/* Right Column - CTAs (Friendlier + More Relaxed) */}
+          <div className="md:col-span-2 pt-3 space-y-9">
             <div>
               <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
                 Find out more about my work history and experience here:
               </p>
-              <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-7 py-5 text-sm tracking-wide">
+              <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-6 py-[17px] text-sm tracking-wide rounded-lg">
                 <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
               </Button>
             </div>
 
-            <div className="pl-4">
+            <div>
               <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
                 Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:
-              </p>
-              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm tracking-wide">
-                <Link href="/projects">Explore Projects</Link>
-              </Button>
-            </div>
-
-            <div className="pl-8">
-              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
-                My research proposal, as well as any other work I&apos;ve written, is available here:
-              </p>
-              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm tracking-wide">
-                <Link href="/research">Research Interests</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom Section */}
-        <div className="mt-16 max-w-2xl mx-auto text-center">
-          <p className="text-[#571e38] mb-6 text-[15px] leading-relaxed">
-            You can find examples of my work, long-form writing, and code here. I&apos;m always open to opportunities in technical AI governance and Agentic AI particularly — shoot me an email or reach out via any of the links below.
-          </p>
-
-          <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 mb-8 tracking-wide">
-            <Link href="/contact">Talk to Me</Link>
-          </Button>
-
-          <div className="flex justify-center gap-3">
-            <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
-              LinkedIn
-            </a>
-            <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
-              Substack
-            </a>
-            <a href="https://github.com/dynamicsofanaisteroid" target="_blank" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
-              GitHub
-            </a>
-            <a href="mailto:dynamicsofanaisteroid@gmail.com" 
-               className="px-5 py-1.5 text-sm border border-[#571e38] text-[#571e38] rounded-full hover:bg-[#571e38] hover:text-white transition-colors tracking-wide">
-              Email
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
+              </
