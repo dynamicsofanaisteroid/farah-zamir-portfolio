@@ -1,14 +1,15 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Link } from "lucide-react"
 
 export default function Home() {
   return (
     // Force new deployment - social links fix 
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-     <nav className="border-b">
+<nav className="border-b">
   <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
     <Link href="/" className="font-semibold text-xl">Farah Zamir</Link>
+    
     <div className="flex gap-6 text-sm">
       <Link href="/about" className="hover:underline">About</Link>
       <Link href="/projects" className="hover:underline">Projects</Link>
