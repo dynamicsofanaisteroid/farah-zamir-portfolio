@@ -37,9 +37,9 @@ export default function Home() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" asChild>
-              <a href="#projects">Explore Projects</a>
-            </Button>
+           <Button size="lg" asChild>
+  <Link href="/projects">Explore Projects</Link>
+</Button>
             <Button size="lg" variant="outline" asChild>
               <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
             </Button>
