@@ -40,11 +40,12 @@ export default function Home() {
           </h1>
 
           <p className="text-2xl text-[#571e38] leading-snug mt-6 max-w-2xl">
-            I build production-grade evaluation infrastructure and governance frameworks 
-            for agentic AI systems — with a background in national-scale information 
-            preservation and a focus on making AI auditable, responsible, and sustainable.
+            I'm an AI engineer that builds production- grade evaluation infrastucture + governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I've worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards. You can find out more about my work in the Projects tab above.
+          <br/>
+          My goals are in environmental conservation, and my lodestar is to build AI systems that are safe, auditable, and accountable. I write about my work and research interests on my <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" className="underline text-[#571e38] hover:text-[#1e5721] transition-colors">Substack</a>.
+          <br/> 
+          My main research interest is in AI for Public Good. My research proposal, the Synapse Warehouse, proposes a Neuro-AI Infrastructure inspired by the human brain's architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage - linked in the Research tab above.
           </p>
-
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 mt-10">
             <Button asChild size="lg" className="bg-[#1e5721] hover:bg-[#16451a] text-white px-8 text-base">
