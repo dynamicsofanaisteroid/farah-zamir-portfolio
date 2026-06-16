@@ -27,12 +27,13 @@ export default function Home() {
           </div>
           
           <h1 className="text-6xl font-semibold tracking-tight mb-6">
-            Farah Zamir
+            Hey there, I'm Farah. 
           </h1>
           
           <p className="text-2xl text-slate-600 mb-8">
-            Hey there, I'm Farah. I'm an AI Engineer specializing in technical AI governance and responsible deployment of agentic systems. I'm also 
-            passionate about conservation and preservation, and I love exploring the intersection of AI and environmental sustainability. 
+            I'm an AI Engineer specializing in technical AI governance and responsible deployment of agentic systems. I'm also 
+            passionate about conservation and preservation, and I love exploring the intersection of AI and environmental sustainability. Open to 
+            new opportunities and collaborations in building and explaining production-grade AI systems, as well as research and development in the field of AI governance and ethics.
           </p>
 
           <div className="flex flex-wrap gap-4">
