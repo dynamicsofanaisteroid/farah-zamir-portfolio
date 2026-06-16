@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f8f4f0]">
-      {/* Dark Header - Simpler */}
+      {/* Dark Header */}
       <nav className="bg-[#1e5721] text-white">
         <div className="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
           <Link href="/" className="font-serif text-4xl tracking-tight text-white">
@@ -21,12 +21,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <div className="max-w-5xl mx-auto px-6 pt-14 pb-12">
-        <div className="grid md:grid-cols-5 gap-x-12 gap-y-10 items-start">
+      <div className="max-w-5xl mx-auto px-6 pt-16 pb-14">
+        <div className="grid md:grid-cols-5 gap-x-14 gap-y-12 items-start">
           
-          {/* Left Column - Main Bio (Bigger text) */}
+          {/* Left Column - Main Bio */}
           <div className="md:col-span-3">
-            <h1 className="text-6xl font-semibold tracking-tighter text-[#301f1f] leading-none mb-6">
+            <h1 className="text-6xl font-semibold tracking-tighter text-[#301f1f] leading-none mb-7">
               Hey, I&apos;m{" "}
               <span className="relative inline-block">
                 Farah.
@@ -35,7 +35,7 @@ export default function Home() {
               </span>
             </h1>
 
-            <div className="space-y-6 text-[16.5px] leading-relaxed text-[#571e38]">
+            <div className="space-y-6 text-[16px] leading-relaxed text-[#571e38]">
               <p>
                 I&apos;m an <span className="font-semibold underline decoration-[#571e38]/70">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
               </p>
@@ -50,25 +50,31 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right Column - CTAs (Smaller / Secondary) */}
-          <div className="md:col-span-2 space-y-5 pt-1">
+          {/* Right Column - CTAs (More relaxed / floating) */}
+          <div className="md:col-span-2 pt-2 space-y-8">
             <div>
-              <p className="text-sm text-[#571e38] mb-2">Find out more about my work history and experience here:</p>
-              <Button asChild className="w-full bg-black hover:bg-[#301f1f] text-white py-5 text-sm">
+              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                Find out more about my work history and experience here:
+              </p>
+              <Button asChild className="bg-black hover:bg-[#301f1f] text-white px-7 py-5 text-sm rounded-lg">
                 <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
               </Button>
             </div>
 
-            <div>
-              <p className="text-sm text-[#571e38] mb-2">Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:</p>
-              <Button asChild className="w-full bg-[#1e5721] hover:bg-[#16451a] text-white py-5 text-sm">
+            <div className="pl-4">
+              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                Interested in my project work? I have examples of my Production Governance and AI Evaluation work here:
+              </p>
+              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm rounded-lg">
                 <Link href="/projects">Explore Projects</Link>
               </Button>
             </div>
 
-            <div>
-              <p className="text-sm text-[#571e38] mb-2">My research proposal, as well as any other work I&apos;ve written, is available here:</p>
-              <Button asChild className="w-full bg-[#1e5721] hover:bg-[#16451a] text-white py-5 text-sm">
+            <div className="pl-8">
+              <p className="text-[15.5px] text-[#571e38] mb-3 leading-snug">
+                My research proposal, as well as any other work I&apos;ve written, is available here:
+              </p>
+              <Button asChild className="bg-[#1e5721] hover:bg-[#16451a] text-white px-7 py-5 text-sm rounded-lg">
                 <Link href="/research">Research Interests</Link>
               </Button>
             </div>
@@ -76,8 +82,8 @@ export default function Home() {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-16 text-center max-w-xl mx-auto">
-          <p className="text-[#571e38] mb-5 text-[15px]">
+        <div className="mt-16 max-w-2xl mx-auto text-center">
+          <p className="text-[#571e38] mb-6 text-[15px] leading-relaxed">
             You can find examples of my work, long-form writing, and code here. I&apos;m always open to opportunities in technical AI governance and Agentic AI particularly — shoot me an email or reach out via any of the links below.
           </p>
 
