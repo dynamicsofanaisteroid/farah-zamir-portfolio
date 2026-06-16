@@ -26,36 +26,28 @@ export default function Home() {
           
           {/* Left Column - Main Bio */}
 <div className="md:col-span-3">
- <h1 className="text-[64px] font-semibold tracking-[-3px] text-[#301f1f] leading-none mb-8">
-  Hey, I&apos;m{" "}
-  <span className="relative inline-block">
-    Farah.
-    {/* Cleaner brush stroke */}
-    <span className="absolute -bottom-[1px] left-[3px] w-[90%] h-[5.5px] bg-[#571e38] -rotate-[2deg] rounded-sm"></span>
-    {/* Star */}
-    <span className="absolute -top-1 -right-1 text-2xl text-[#571e38]">✧</span>
-  </span>
-</h1>
-
-<div className="space-y-7 text-[17px] leading-relaxed tracking-[-0.3px] text-[#571e38]">
-  <p>
-    I&apos;m an <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-[3px] mr-1">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
-  </p>
+  <h1 className="text-[64px] font-semibold tracking-[-3px] text-[#301f1f] leading-none mb-8">
+    Hey, I&apos;m{" "}
+    <span className="relative inline-block">
+      Farah.
+      <span className="absolute -bottom-[1px] left-[3px] w-[90%] h-[5.5px] bg-[#571e38] -rotate-[2deg] rounded-sm"></span>
+      <span className="absolute -top-1 -right-1 text-2xl text-[#571e38]">✧</span>
+    </span>
+  </h1>
 
   <div className="space-y-7 text-[17px] leading-relaxed tracking-[-0.3px] text-[#571e38]">
     <p>
-      I&apos;m an <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-2">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
+      I&apos;m an <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-[3px] mr-1">AI engineer</span> that builds production-grade evaluation infrastructure and governance frameworks for Agentic AI systems. My background is in national archives and information preservation; I&apos;ve worked at the House of Lords, the National Science and Media Museum, and most recently, Virgin Atlantic, where I built and deployed governance systems for live agentic AI, including evaluation harnesses and pre-execution safeguards.
     </p>
 
     <p>
-      My goals are in <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-2">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
+      My goals are in <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-[3px]">environmental conservation</span>, and my lodestar is to build AI systems that are safe, auditable, and accountable.
     </p>
 
     <p>
-      My main research interest is in <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-2">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold underline decoration-[#571e38]/70 hover:text-[#1e5721] underline-offset-2">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
+      My main research interest is in <span className="font-semibold underline decoration-[#571e38]/70 underline-offset-[3px]">AI for Public Good</span>. My research proposal, the <Link href="/research" className="font-semibold underline decoration-[#571e38]/70 hover:text-[#1e5721] underline-offset-[3px]">Synapse Warehouse</Link>, proposes a Neuro-AI Infrastructure inspired by the human brain&apos;s architecture, moving away from the massive, irreversible resource consumption risks posed by global AI usage.
     </p>
   </div>
-</div>
 </div>
 
           {/* Right Column - CTAs with white background */}
