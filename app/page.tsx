@@ -13,7 +13,6 @@ export default function Home() {
         <Link href="/" className="font-serif text-4xl tracking-tight text-white">
           Farah Zamir
         </Link>
-        <div className="text-sm text-white/80 tracking-[3px] mt-0.5">AI ENGINEER</div>
       </div>
 
       {/* Navigation */}
