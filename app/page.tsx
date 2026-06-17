@@ -30,6 +30,14 @@ export default function Home() {
           systems that are not only effective, but genuinely safe, auditable, and
           sustainable at scale.
           </p>
+          <p>
+            At Virgin Atlantic, I designed and delivered a governance-first AI Evaluation
+          Harness for a live agentic AI system, processing millions of conversational
+          interactions while embedding privacy controls, human oversight, and full
+          auditability from the start. I also created the Skills Contract, a pre-execution
+          governance framework that identified and mitigated significant risks in agent
+          tooling.
+          </p>
         </div>
       </div>
 
