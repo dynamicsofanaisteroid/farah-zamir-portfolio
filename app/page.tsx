@@ -28,20 +28,9 @@ export default function Home() {
             My work centres on creating systems that are not only effective, but genuinely safe, auditable, and sustainable at scale.
           </p>
           <p>
-            Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. 
-            I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including 
-            the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart — this background gave me a deep 
-            appreciation for accountability, risk, and building systems designed to stand up to scrutiny over time.
-          </p>
-          <p>
             At Virgin Atlantic, I designed and delivered a governance-first AI Evaluation Harness for a live agentic AI system, 
             processing millions of conversational interactions while embedding privacy controls, human oversight, and full auditability from the start. 
             I also created the Skills Contract, a pre-execution governance framework that identified and mitigated significant risks in agent tooling.
-          </p>
-          <p>
-            I’m particularly interested in technical AI governance, agent safety, and sustainable AI infrastructure. 
-            I’m currently developing ideas around neuro-inspired, energy-proportional agent systems that prioritise minimal resource use, 
-            strong auditability, and built-in safeguards.
           </p>
         </div>
       </div>
@@ -64,12 +53,12 @@ export default function Home() {
           </div>
 
           <p className="text-sm text-slate-600">
-            I’m drawn to opportunities where I can combine engineering experience with a preservation-oriented mindset 
-            to help organisations deploy AI responsibly — especially in high-stakes or public-interest contexts.
+            I’m particularly interested in technical AI governance, agent safety, and
+sustainable AI infrastructure. I’m currently developing ideas around neuroinspired, energy-proportional agent systems that prioritise minimal resource
+use, strong auditability, and built-in safeguards.
           </p>
         </div>
       </div>
-
       {/* Key Work - Strengthened */}
       <div className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-semibold tracking-tight mb-6">Key Work</h2>
