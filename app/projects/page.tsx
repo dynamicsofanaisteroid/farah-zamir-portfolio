@@ -2,7 +2,7 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"   // ← Add this line
 export default function ProjectsPage() {
   return (
-<div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">   {/* Changed to 3 columns on large screens */}
+<div className="grid gap-8 md:grid-cols-2">
 
   {/* Skills Contract Card */}
   <Link href="/projects/skills-contract" className="block border rounded-xl p-6 hover:shadow-sm transition-shadow">
