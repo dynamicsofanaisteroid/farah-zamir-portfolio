@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import { ArrowRight } from "lucide-react"   // ← Add this line
 export default function ProjectsPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
@@ -15,26 +15,25 @@ export default function ProjectsPage() {
 
       <div className="grid gap-8 md:grid-cols-2">
         
-        {/* Skills Contract Card - Now Clickable */}
-        <Link href="/projects/skills-contract" className="block border rounded-xl p-6 hover:shadow-sm transition-shadow">
-          <h3 className="text-xl font-semibold mb-3">Skills Contract & Risk Analysis</h3>
-          <p className="text-slate-600 mb-4">
-            A pre-execution governance framework for Databricks Agent Skills. 
-            Identified critical vulnerabilities in widely-used toolkits and built a structured contract 
-            to prevent malicious or destructive operations.
-          </p>
-          <span className="text-sm text-slate-500">Technical AI Governance • Agent Safety</span>
-        </Link>
-
-        {/* AI Evaluation Harness Card - Now Clickable */}
-        <Link href="/projects/evaluation-harness" className="block border rounded-xl p-6 hover:shadow-sm transition-shadow">
-          <h3 className="text-xl font-semibold mb-3">AI Evaluation Harness</h3>
-          <p className="text-slate-600 mb-4">
-            Designed and delivered a governance-first evaluation system for a production agentic AI system at Virgin Atlantic. 
-            Processes millions of conversational spans with embedded privacy controls, human oversight, and full auditability.
-          </p>
-          <span className="text-sm text-slate-500">Production AI • LLM Evaluation • Governance</span>
-        </Link>
+        {/* Skills Contract Card */}
+<Link 
+  href="/projects/skills-contract" 
+  className="block border rounded-xl p-6 hover:shadow-sm transition-shadow group"
+>
+  <h3 className="text-xl font-semibold mb-3">Skills Contract & Risk Analysis</h3>
+  <p className="text-slate-600 mb-4">
+    A pre-execution governance framework for Databricks Agent Skills. 
+    Identified critical vulnerabilities in widely-used toolkits and built a structured contract 
+    to prevent malicious or destructive operations.
+  </p>
+  
+  <div className="flex items-center justify-between">
+    <span className="text-sm text-slate-500">Technical AI Governance • Agent Safety</span>
+    
+    {/* Arrow icon added here */}
+    <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-slate-900 transition-colors" />
+  </div>
+</Link>
 
       </div>
     </div>
