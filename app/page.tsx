@@ -19,12 +19,12 @@ export default function Home() {
       </div>
 
       {/* Intro */}
-      <div className="max-w-4xl mx-auto px-6 py-10">
+      <div className="max-w-4xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-semibold tracking-tight mb-6" style={{ color: '#7bbd83' }}>
           Hey, I’m Farah ✮⋆˙
         </h2>
         
-        <div className="max-w-3xl space-y-5 text-[15.5px] leading-[1.7] text-slate-700">
+        <div className="max-w-3xl space-y-6 text-[15.5px] leading-[1.7] text-slate-700">
           <p>
            Iʼm an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. My work centres on creating
           systems that are not only effective, but genuinely safe, auditable, and
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
 
       {/* My Approach + Illustration */}
-      <div className="max-w-4xl mx-auto px-6 py-10 border-t bg-slate-50">
+      <div className="max-w-4xl mx-auto px-6 py-14 border-t bg-slate-50">
         <div className="max-w-3xl">
           <h2 className="text-3xl font-semibold tracking-tight mb-4" style={{ color: '#7bbd83' }}>
             My Approach
@@ -51,7 +51,7 @@ export default function Home() {
             I believe strong AI systems are built with intention, not speed. 
           </p>
           {/* Illustration */}
-          <div className="mb-6">
+          <div className="mb-8">
             <img 
               src="/approach-illustration.png" 
               alt="Illustration showing range of AI evaluation and governance activities" 
@@ -68,34 +68,34 @@ export default function Home() {
       </div>
 
       {/* Key Work */}
-      <div className="max-w-4xl mx-auto px-6 py-10">
+      <div className="max-w-4xl mx-auto px-6 py-14">
         <h2 className="text-3xl font-semibold tracking-tight mb-6" style={{ color: '#7bbd83' }}>
           Key Work
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
-          <div className="p-5 border border-slate-200 rounded-2xl">
+          <div className="p-6 border border-slate-200 rounded-2xl">
             <div className="font-semibold text-lg tracking-tight mb-2">AI Evaluation Harness</div>
             <p className="text-slate-600">
               Designed and delivered a governance-first evaluation harness for a live agentic AI system at Virgin Atlantic. 
               Processes millions of conversational spans with built-in privacy controls, human oversight, and full auditability.
             </p>
           </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
+          <div className="p-6 border border-slate-200 rounded-2xl">
             <div className="font-semibold text-lg tracking-tight mb-2">Skills Contract &amp; Risk Audit</div>
             <p className="text-slate-600">
               Conducted a full risk audit of a widely-deployed Databricks agent toolkit and built a pre-execution governance framework. 
               Blocked production use on five of six critical risk criteria and escalated findings to senior leadership.
             </p>
           </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
+          <div className="p-6 border border-slate-200 rounded-2xl">
             <div className="font-semibold text-lg tracking-tight mb-2">AI/BI Genie (Company-wide)</div>
             <p className="text-slate-600">
               Designed and shipped an internal AI/BI analytics tool from scratch. Achieved 100% benchmark accuracy before rollout 
               and saw it adopted as the organisational standard across Virgin Atlantic.
             </p>
           </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
+          <div className="p-6 border border-slate-200 rounded-2xl">
             <div className="font-semibold text-lg tracking-tight mb-2">OpenAI Alpha Skills Review</div>
             <p className="text-slate-600">
               Invited by Virgin Atlantic’s VP of Data &amp; AI to join a confidential OpenAI alpha channel for agent skills development. 
@@ -106,26 +106,29 @@ export default function Home() {
       </div>
 
       {/* Explore Section */}
-      <div className="max-w-4xl mx-auto px-6 py-10 border-t">
+      <div className="max-w-4xl mx-auto px-6 py-14 border-t">
         <h2 className="text-3xl font-semibold tracking-tight mb-6" style={{ color: '#7bbd83' }}>
           Explore
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link 
-            href="/projects" 
-            className="block p-6 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-[#7bbd83] hover:shadow-md transition-all duration-200"
-          >
-            <div className="font-semibold text-lg tracking-tight mb-1">Projects</div>
-            <p className="text-sm text-slate-600">Full case studies of the AI Evaluation Harness and Skills Contract.</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+          <Link href="/projects" className="p-6 border border-slate-200 rounded-2xl hover:border-[#7bbd83] transition-colors">
+            <div className="font-semibold text-lg tracking-tight mb-2">Projects</div>
+            <p className="text-slate-600">
+              See curated examples of AI evaluation and governance work, research summaries, and tooling.
+            </p>
           </Link>
-
-          <Link 
-            href="/research" 
-            className="block p-6 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-[#7bbd83] hover:shadow-md transition-all duration-200"
-          >
-            <div className="font-semibold text-lg tracking-tight mb-1">Research</div>
-            <p className="text-sm text-slate-600">Synapse Warehouse and work in technical AI governance.</p>
+          <Link href="/writing" className="p-6 border border-slate-200 rounded-2xl hover:border-[#7bbd83] transition-colors">
+            <div className="font-semibold text-lg tracking-tight mb-2">Writing</div>
+            <p className="text-slate-600">
+              Read essays and notes on safety, evaluation, and sustainable agent design.
+            </p>
+          </Link>
+          <Link href="/contact" className="p-6 border border-slate-200 rounded-2xl hover:border-[#7bbd83] transition-colors">
+            <div className="font-semibold text-lg tracking-tight mb-2">Contact</div>
+            <p className="text-slate-600">
+              Get in touch to discuss collaborations, advisory roles, or speaking opportunities.
+            </p>
           </Link>
         </div>
       </div>
