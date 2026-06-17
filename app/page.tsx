@@ -107,19 +107,31 @@ export default function Home() {
       </div>
 
       {/* Explore Section */}
-      <div className="max-w-4xl mx-auto px-6 py-10 border-t">
-        <h2 className="text-2xl font-semibold tracking-tight mb-6">Explore</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="/projects" className="block p-6 border rounded-2xl hover:border-slate-300 transition-colors">
-            <div className="font-medium mb-1">Projects</div>
-            <p className="text-sm text-slate-600">Full case studies of the AI Evaluation Harness and Skills Contract.</p>
-          </Link>
-          <Link href="/research" className="block p-6 border rounded-2xl hover:border-slate-300 transition-colors">
-            <div className="font-medium mb-1">Research</div>
-            <p className="text-sm text-slate-600">Synapse Warehouse and work in technical AI governance.</p>
-          </Link>
-        </div>
-      </div>
+<div className="max-w-4xl mx-auto px-6 py-10 border-t">
+  <h2 className="text-2xl font-semibold tracking-tight mb-6">Explore</h2>
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <Link 
+      href="/projects" 
+      className="block p-6 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-teal-200 hover:shadow-md transition-all duration-200"
+    >
+      <div className="font-medium mb-1 text-slate-900">Projects</div>
+      <p className="text-sm text-slate-600">
+        Full case studies of the AI Evaluation Harness and Skills Contract.
+      </p>
+    </Link>
+
+    <Link 
+      href="/research" 
+      className="block p-6 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-teal-200 hover:shadow-md transition-all duration-200"
+    >
+      <div className="font-medium mb-1 text-slate-900">Research</div>
+      <p className="text-sm text-slate-600">
+        Synapse Warehouse and work in technical AI governance.
+      </p>
+    </Link>
+  </div>
+</div>
     </div>
   )
 }
