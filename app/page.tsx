@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
-      {/* Top Header - Arash style */}
+      {/* Top Header */}
       <div className="max-w-4xl mx-auto px-6 pt-16 pb-8">
         <div>
           <h1 className="text-5xl font-semibold tracking-tight">Farah Zamir</h1>
@@ -18,63 +18,90 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Intro Section */}
+      {/* Intro */}
       <div className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-semibold tracking-tight mb-6">Hey, I’m Farah 👋</h2>
         
         <div className="max-w-3xl space-y-5 text-[15.5px] leading-relaxed text-slate-700">
           <p>
-            I’m an AI Engineer building production evaluation infrastructure and governance frameworks for agentic AI systems. 
-            I currently work at Virgin Atlantic, where I architected and delivered a <strong>governance-first AI Evaluation Harness</strong> 
-            for a live agentic system — processing millions of conversational spans while embedding privacy controls, human oversight, 
-            and full auditability from the start.
+            I’m an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. 
+            My work centres on creating systems that are not only effective, but genuinely safe, auditable, and sustainable at scale.
           </p>
           <p>
-            I also created the <strong>Skills Contract</strong>, a pre-execution governance framework that identified undocumented attack vectors 
-            in a widely-deployed Databricks agent toolkit. The framework blocked production use on five of six critical risk criteria and 
-            was escalated to the VP of Data &amp; AI.
+            Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. 
+            I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including 
+            the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart — this background gave me a deep 
+            appreciation for accountability, risk, and building systems designed to stand up to scrutiny over time.
           </p>
           <p>
-            Before AI, I spent nearly eight years in public sector information management and digital preservation, working with national 
-            archival standards at the Parliamentary Archives and Science Museum Group. This background shapes how I approach AI governance — 
-            with a strong focus on provenance, accountability, and long-term risk.
+            At Virgin Atlantic, I designed and delivered a governance-first AI Evaluation Harness for a live agentic AI system, 
+            processing millions of conversational interactions while embedding privacy controls, human oversight, and full auditability from the start. 
+            I also created the Skills Contract, a pre-execution governance framework that identified and mitigated significant risks in agent tooling.
+          </p>
+          <p>
+            I’m particularly interested in technical AI governance, agent safety, and sustainable AI infrastructure. 
+            I’m currently developing ideas around neuro-inspired, energy-proportional agent systems that prioritise minimal resource use, 
+            strong auditability, and built-in safeguards.
           </p>
         </div>
       </div>
 
-      {/* Key Work Highlights - Silhouetting CV achievements */}
-      <div className="max-w-4xl mx-auto px-6 py-10 border-t">
+      {/* My Approach + Illustration */}
+      <div className="max-w-4xl mx-auto px-6 py-10 border-t bg-slate-50">
+        <div className="max-w-3xl">
+          <h2 className="text-2xl font-semibold tracking-tight mb-4">My Approach</h2>
+          <p className="text-[15.5px] text-slate-700 mb-6">
+            I believe strong AI systems are built with intention, not speed. The illustration below captures the contrast between 
+            structured, governed development and chaotic, high-risk approaches.
+          </p>
+
+          {/* Illustration - Replace with your actual image */}
+          <div className="mb-6">
+            <img 
+              src="/approach-illustration.png" 
+              alt="Illustration showing intentional AI development vs risky approaches" 
+              className="w-full max-w-[520px] mx-auto rounded-xl border border-slate-200"
+            />
+          </div>
+
+          <p className="text-sm text-slate-600">
+            I’m drawn to opportunities where I can combine engineering experience with a preservation-oriented mindset 
+            to help organisations deploy AI responsibly — especially in high-stakes or public-interest contexts.
+          </p>
+        </div>
+      </div>
+
+      {/* Key Work - Strengthened */}
+      <div className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-semibold tracking-tight mb-6">Key Work</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
           <div className="p-5 border rounded-xl">
             <div className="font-medium mb-2">AI Evaluation Harness</div>
             <p className="text-slate-600">
-              Designed and built a standalone, governance-first evaluation harness for LLM agent systems. 
-              Includes privacy-aware data contracts over 7M+ spans, version-aware governance, proxy vs human ground truth separation, 
-              and MLflow-instrumented execution.
+              Designed and delivered a governance-first evaluation harness for a live agentic AI system at Virgin Atlantic. 
+              Processes millions of conversational spans with built-in privacy controls, human oversight, and full auditability.
             </p>
           </div>
           <div className="p-5 border rounded-xl">
             <div className="font-medium mb-2">Skills Contract &amp; Risk Audit</div>
             <p className="text-slate-600">
-              Conducted a full risk audit of a Databricks ai-dev-kit and built a pre-execution governance layer. 
-              Validated against four agent skills and blocked production deployment on five of six critical criteria. 
-              Escalated to senior leadership.
+              Conducted a full risk audit of a widely-deployed Databricks agent toolkit and built a pre-execution governance framework. 
+              Blocked production use on five of six critical risk criteria and escalated findings to senior leadership.
             </p>
           </div>
           <div className="p-5 border rounded-xl">
-            <div className="font-medium mb-2">AI/BI Genie (Company-wide Tool)</div>
+            <div className="font-medium mb-2">AI/BI Genie (Company-wide)</div>
             <p className="text-slate-600">
-              Designed and shipped an internal AI/BI analytics tool from scratch. Achieved 100% accuracy on benchmark evaluation 
-              before rollout and was adopted as the organisational standard across Virgin Atlantic.
+              Designed and shipped an internal AI/BI analytics tool from scratch. Achieved 100% benchmark accuracy before rollout 
+              and saw it adopted as the organisational standard across Virgin Atlantic.
             </p>
           </div>
           <div className="p-5 border rounded-xl">
             <div className="font-medium mb-2">OpenAI Alpha Skills Review</div>
             <p className="text-slate-600">
-              Invited by Virgin Atlantic’s VP of Data &amp; AI to join a confidential OpenAI alpha channel. 
-              Personally liaised with OpenAI technical partners to flag and mitigate governance risks in agent skills development.
+              Invited by Virgin Atlantic’s VP of Data &amp; AI to join a confidential OpenAI alpha channel for agent skills development. 
+              Personally flagged governance risks and worked directly with OpenAI technical partners.
             </p>
           </div>
         </div>
@@ -83,7 +110,6 @@ export default function Home() {
       {/* Explore Section */}
       <div className="max-w-4xl mx-auto px-6 py-10 border-t">
         <h2 className="text-2xl font-semibold tracking-tight mb-6">Explore</h2>
-        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="/projects" className="block p-6 border rounded-2xl hover:border-slate-300 transition-colors">
             <div className="font-medium mb-1">Projects</div>
@@ -91,17 +117,9 @@ export default function Home() {
           </Link>
           <Link href="/research" className="block p-6 border rounded-2xl hover:border-slate-300 transition-colors">
             <div className="font-medium mb-1">Research</div>
-            <p className="text-sm text-slate-600">Synapse Warehouse — neuro-inspired, energy-proportional governed AI infrastructure.</p>
+            <p className="text-sm text-slate-600">Synapse Warehouse and work in technical AI governance.</p>
           </Link>
         </div>
-      </div>
-
-      {/* Footer */}
-      <div className="max-w-4xl mx-auto px-6 py-16 border-t text-sm text-slate-500">
-        <p>
-          I’m particularly interested in technical AI governance, agent safety, and building systems that can be trusted at scale. 
-          Feel free to reach out.
-        </p>
       </div>
     </div>
   )
