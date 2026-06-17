@@ -1,142 +1,108 @@
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Space_Grotesk, Inter } from 'next/font/google'
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'],
-  weight: ['500', '600', '700'],
-  variable: '--font-space-grotesk',
-})
-
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-inter',
-})
 
 export default function Home() {
   return (
-    <div className={`${inter.variable} ${spaceGrotesk.variable} min-h-screen bg-[#f9f5f0]`}>
+    <div className="min-h-screen bg-white text-slate-800">
+      {/* Top Header - Arash style */}
+      <div className="max-w-4xl mx-auto px-6 pt-16 pb-8">
+        <div>
+          <h1 className="text-5xl font-semibold tracking-tight">Farah Zamir</h1>
+          <p className="text-xl text-slate-600 mt-1">AI Engineer · LLM Evaluation &amp; Governance</p>
+          
+          <div className="mt-3 text-sm text-slate-500 flex flex-wrap gap-x-4">
+            <a href="mailto:dynamicsofanaisteroid@gmail.com" className="hover:text-slate-700">dynamicsofanaisteroid@gmail.com</a>
+            <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" className="hover:text-slate-700">LinkedIn</a>
+            <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" className="hover:text-slate-700">Substack</a>
+            <a href="https://github.com/dynamicsofanaisteroid" target="_blank" className="hover:text-slate-700">GitHub</a>
+          </div>
+        </div>
+      </div>
 
-      {/* Navigation */}
-      <nav className="bg-[#1a4a1f] text-white">
-        <div className="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
-          <Link href="/" className="font-serif text-4xl tracking-[-1.5px]">
-            Farah Zamir
+      {/* Intro Section */}
+      <div className="max-w-4xl mx-auto px-6 py-10">
+        <h2 className="text-2xl font-semibold tracking-tight mb-6">Hey, I’m Farah 👋</h2>
+        
+        <div className="max-w-3xl space-y-5 text-[15.5px] leading-relaxed text-slate-700">
+          <p>
+            I’m an AI Engineer building production evaluation infrastructure and governance frameworks for agentic AI systems. 
+            I currently work at Virgin Atlantic, where I architected and delivered a <strong>governance-first AI Evaluation Harness</strong> 
+            for a live agentic system — processing millions of conversational spans while embedding privacy controls, human oversight, 
+            and full auditability from the start.
+          </p>
+          <p>
+            I also created the <strong>Skills Contract</strong>, a pre-execution governance framework that identified undocumented attack vectors 
+            in a widely-deployed Databricks agent toolkit. The framework blocked production use on five of six critical risk criteria and 
+            was escalated to the VP of Data &amp; AI.
+          </p>
+          <p>
+            Before AI, I spent nearly eight years in public sector information management and digital preservation, working with national 
+            archival standards at the Parliamentary Archives and Science Museum Group. This background shapes how I approach AI governance — 
+            with a strong focus on provenance, accountability, and long-term risk.
+          </p>
+        </div>
+      </div>
+
+      {/* Key Work Highlights - Silhouetting CV achievements */}
+      <div className="max-w-4xl mx-auto px-6 py-10 border-t">
+        <h2 className="text-2xl font-semibold tracking-tight mb-6">Key Work</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+          <div className="p-5 border rounded-xl">
+            <div className="font-medium mb-2">AI Evaluation Harness</div>
+            <p className="text-slate-600">
+              Designed and built a standalone, governance-first evaluation harness for LLM agent systems. 
+              Includes privacy-aware data contracts over 7M+ spans, version-aware governance, proxy vs human ground truth separation, 
+              and MLflow-instrumented execution.
+            </p>
+          </div>
+          <div className="p-5 border rounded-xl">
+            <div className="font-medium mb-2">Skills Contract &amp; Risk Audit</div>
+            <p className="text-slate-600">
+              Conducted a full risk audit of a Databricks ai-dev-kit and built a pre-execution governance layer. 
+              Validated against four agent skills and blocked production deployment on five of six critical criteria. 
+              Escalated to senior leadership.
+            </p>
+          </div>
+          <div className="p-5 border rounded-xl">
+            <div className="font-medium mb-2">AI/BI Genie (Company-wide Tool)</div>
+            <p className="text-slate-600">
+              Designed and shipped an internal AI/BI analytics tool from scratch. Achieved 100% accuracy on benchmark evaluation 
+              before rollout and was adopted as the organisational standard across Virgin Atlantic.
+            </p>
+          </div>
+          <div className="p-5 border rounded-xl">
+            <div className="font-medium mb-2">OpenAI Alpha Skills Review</div>
+            <p className="text-slate-600">
+              Invited by Virgin Atlantic’s VP of Data &amp; AI to join a confidential OpenAI alpha channel. 
+              Personally liaised with OpenAI technical partners to flag and mitigate governance risks in agent skills development.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Explore Section */}
+      <div className="max-w-4xl mx-auto px-6 py-10 border-t">
+        <h2 className="text-2xl font-semibold tracking-tight mb-6">Explore</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Link href="/projects" className="block p-6 border rounded-2xl hover:border-slate-300 transition-colors">
+            <div className="font-medium mb-1">Projects</div>
+            <p className="text-sm text-slate-600">Full case studies of the AI Evaluation Harness and Skills Contract.</p>
           </Link>
-
-          <div className="flex gap-8 text-sm font-medium tracking-wide text-white/90">
-            <Link href="/about">About</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/research">Research</Link>
-            <Link href="/contact">Contact</Link>
-          </div>
+          <Link href="/research" className="block p-6 border rounded-2xl hover:border-slate-300 transition-colors">
+            <div className="font-medium mb-1">Research</div>
+            <p className="text-sm text-slate-600">Synapse Warehouse — neuro-inspired, energy-proportional governed AI infrastructure.</p>
+          </Link>
         </div>
-      </nav>
+      </div>
 
-      <main className="max-w-5xl mx-auto px-6 pt-16 pb-20">
-
-        <div className="grid md:grid-cols-5 gap-x-16 gap-y-12">
-
-          {/* LEFT — Bio */}
-          <div className="md:col-span-3">
-
-            <h1 className="font-sans text-[54px] leading-[1.05] tracking-[-2.8px] font-semibold text-[#2c211f] mb-8">
-              Building evaluation infrastructure<br />and governance for agentic AI.
-            </h1>
-
-            <div className="space-y-6 text-[17px] leading-relaxed text-[#4a3a35]">
-              <p>
-                I design and build production-grade evaluation systems and governance frameworks for agentic AI. 
-                My work focuses on making AI systems measurable, auditable, and safe before they scale.
-              </p>
-
-              <p>
-                Before moving into AI, I spent nearly eight years in archives, libraries, and public sector 
-                information management. That experience shaped how I think about technology: systems should be 
-                understandable, accountable, and built to last.
-              </p>
-
-              <p>
-                Today my research explores sustainable and neuro-inspired AI infrastructure, with a focus on 
-                embedding governance and energy proportionality into the architecture from the start.
-              </p>
-            </div>
-
-            {/* Design Principles */}
-            <div className="mt-12 border-l-2 border-[#c9b28a] pl-6">
-              <p className="text-xs uppercase tracking-[2px] text-[#8b6a5a] mb-4">Design principles</p>
-              <ul className="space-y-2.5 text-[15.5px] text-[#4a3a35]">
-                <li>Governance before automation</li>
-                <li>Evaluation before deployment</li>
-                <li>Human oversight by default</li>
-                <li>Systems should be explainable and auditable</li>
-              </ul>
-            </div>
-
-          </div>
-
-          {/* RIGHT — Card */}
-          <div className="md:col-span-2">
-            <div className="bg-white rounded-2xl border border-[#e6d9c8] p-8 sticky top-8 shadow-sm">
-
-              <div className="mb-8">
-                <p className="text-xs uppercase tracking-widest text-[#8b6a5a] mb-3">Current focus</p>
-                <ul className="text-[15px] leading-7 text-[#4a3a35]">
-                  <li>Production AI evaluation</li>
-                  <li>Agent governance &amp; safety</li>
-                  <li>Technical AI governance</li>
-                  <li>Sustainable AI infrastructure</li>
-                </ul>
-              </div>
-
-              <div className="space-y-3">
-                <Button asChild className="w-full bg-[#1a4a1f] hover:bg-[#133614] text-white py-[22px] text-[15px]">
-                  <Link href="/projects">View Technical Projects</Link>
-                </Button>
-
-                <Button asChild className="w-full bg-[#1a4a1f] hover:bg-[#133614] text-white py-[22px] text-[15px]">
-                  <Link href="/research">Research Interests</Link>
-                </Button>
-
-                <Button asChild variant="outline" className="w-full border-[#2c211f] text-[#2c211f] hover:bg-[#2c211f] hover:text-white py-[22px] text-[15px]">
-                  <a href="/Farah_Zamir_CV.pdf" target="_blank">Download CV</a>
-                </Button>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-        {/* Stats */}
-        <div className="mt-20 pt-12 border-t border-[#e6d9c8]">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10">
-
-            <div>
-              <div className="text-[42px] font-semibold tracking-[-1.5px] text-[#2c211f]">7M+</div>
-              <div className="text-sm text-[#4a3a35] mt-1.5">Production telemetry spans analysed</div>
-            </div>
-
-            <div>
-              <div className="text-[42px] font-semibold tracking-[-1.5px] text-[#2c211f]">2</div>
-              <div className="text-sm text-[#4a3a35] mt-1.5">Governance frameworks developed</div>
-            </div>
-
-            <div>
-              <div className="text-[42px] font-semibold tracking-[-1.5px] text-[#2c211f]">8 yrs</div>
-              <div className="text-sm text-[#4a3a35] mt-1.5">Information governance experience</div>
-            </div>
-
-            <div>
-              <div className="text-[42px] font-semibold tracking-[-1.5px] text-[#2c211f]">AI</div>
-              <div className="text-sm text-[#4a3a35] mt-1.5">Evaluation · Governance · Public Good</div>
-            </div>
-
-          </div>
-        </div>
-
-      </main>
+      {/* Footer */}
+      <div className="max-w-4xl mx-auto px-6 py-16 border-t text-sm text-slate-500">
+        <p>
+          I’m particularly interested in technical AI governance, agent safety, and building systems that can be trusted at scale. 
+          Feel free to reach out.
+        </p>
+      </div>
     </div>
   )
 }
