@@ -22,7 +22,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-semibold tracking-tight mb-6">Hey, I’m Farah 👋</h2>
         
-        <div className="max-w-3xl space-y-5 text-[15.5px] leading-relaxed text-slate-700">
+        <div className="max-w-3xl space-y-5 text-[20.5px] leading-relaxed text-slate-700">
           <p>
             I’m an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. 
             My work centres on creating systems that are not only effective, but genuinely safe, auditable, and sustainable at scale.
@@ -51,15 +51,14 @@ export default function Home() {
         <div className="max-w-3xl">
           <h2 className="text-2xl font-semibold tracking-tight mb-4">My Approach</h2>
           <p className="text-[15.5px] text-slate-700 mb-6">
-            I believe strong AI systems are built with intention, not speed. The illustration below captures the contrast between 
-            structured, governed development and chaotic, high-risk approaches.
+            I believe strong AI systems are built with intention, not speed.
           </p>
 
           {/* Illustration - Replace with your actual image */}
           <div className="mb-6">
             <img 
               src="/approach-illustration.png" 
-              alt="Illustration showing intentional AI development vs risky approaches" 
+              alt="Illustration showing protective layers around AI - and new ways of thinking about AI governance" 
               className="w-full max-w-[520px] mx-auto rounded-xl border border-slate-200"
             />
           </div>
