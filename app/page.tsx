@@ -26,24 +26,9 @@ export default function Home() {
         
         <div className="max-w-3xl space-y-5 text-[15.5px] leading-[1.7] text-slate-700">
           <p>
-            I’m an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. 
-            My work centres on creating systems that are not only effective, but genuinely safe, auditable, and sustainable at scale.
-          </p>
-          <p>
-            Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. 
-            I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including 
-            the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart — this background gave me a deep 
-            appreciation for accountability, risk, and building systems designed to stand up to scrutiny over time.
-          </p>
-          <p>
-            At Virgin Atlantic, I designed and delivered a governance-first AI Evaluation Harness for a live agentic AI system, 
-            processing millions of conversational interactions while embedding privacy controls, human oversight, and full auditability from the start. 
-            I also created the Skills Contract, a pre-execution governance framework that identified and mitigated significant risks in agent tooling.
-          </p>
-          <p>
-            I’m particularly interested in technical AI governance, agent safety, and sustainable AI infrastructure. 
-            I’m currently developing ideas around neuro-inspired, energy-proportional agent systems that prioritise minimal resource use, 
-            strong auditability, and built-in safeguards.
+           Iʼm an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. My work centres on creating
+          systems that are not only effective, but genuinely safe, auditable, and
+          sustainable at scale.
           </p>
         </div>
       </div>
@@ -55,22 +40,21 @@ export default function Home() {
             My Approach
           </h2>
           <p className="text-[15.5px] leading-[1.7] text-slate-700 mb-6">
-            I believe strong AI systems are built with intention, not speed. The illustration below captures the contrast between 
-            structured, governed development and chaotic, high-risk approaches.
+            I believe strong AI systems are built with intention, not speed. 
           </p>
-
           {/* Illustration */}
           <div className="mb-6">
             <img 
               src="/approach-illustration.png" 
-              alt="Illustration showing intentional AI development vs risky approaches" 
+              alt="Illustration showing range of AI evaluation and governance activities" 
               className="w-full max-w-[520px] mx-auto rounded-xl border border-slate-200"
             />
           </div>
 
           <p className="text-sm text-slate-600">
-            I’m drawn to opportunities where I can combine engineering experience with a preservation-oriented mindset 
-            to help organisations deploy AI responsibly — especially in high-stakes or public-interest contexts.
+            Iʼm particularly interested in technical AI governance, agent safety, and sustainable AI infrastructure. Iʼm currently
+            developing ideas around neuroinspired, energy-proportional agent systems that prioritise minimal resource use,
+            strong auditability, and built-in safeguards.          
           </p>
         </div>
       </div>
