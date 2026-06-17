@@ -9,13 +9,14 @@ export default function ProjectsPage() {
 
       <h1 className="text-4xl font-semibold tracking-tight mb-4">Projects</h1>
       <p className="text-lg text-slate-600 max-w-2xl mb-12">
-        A selection of my work getting AI systems off the ground - proven production-applied governance solutions and creative applications of agentic AI. 
+        A selection of my work getting AI systems off the ground — proven production-applied 
+        governance solutions and creative applications of agentic AI.
       </p>
 
       <div className="grid gap-8 md:grid-cols-2">
         
-        {/* Project 1: Skills Contract & Risk Analysis*/}
-        <div className="border rounded-xl p-6 hover:shadow-sm transition-shadow">
+        {/* Skills Contract Card - Now Clickable */}
+        <Link href="/projects/skills-contract" className="block border rounded-xl p-6 hover:shadow-sm transition-shadow">
           <h3 className="text-xl font-semibold mb-3">Skills Contract & Risk Analysis</h3>
           <p className="text-slate-600 mb-4">
             A pre-execution governance framework for Databricks Agent Skills. 
@@ -23,17 +24,18 @@ export default function ProjectsPage() {
             to prevent malicious or destructive operations.
           </p>
           <span className="text-sm text-slate-500">Technical AI Governance • Agent Safety</span>
-        </div>
+        </Link>
 
-        {/* Project 2: AI Evaluation Harness */}
-        <div className="border rounded-xl p-6 hover:shadow-sm transition-shadow">
+        {/* AI Evaluation Harness Card - Now Clickable */}
+        <Link href="/projects/evaluation-harness" className="block border rounded-xl p-6 hover:shadow-sm transition-shadow">
           <h3 className="text-xl font-semibold mb-3">AI Evaluation Harness</h3>
           <p className="text-slate-600 mb-4">
             Designed and delivered a governance-first evaluation system for a production agentic AI system at Virgin Atlantic. 
             Processes millions of conversational spans with embedded privacy controls, human oversight, and full auditability.
           </p>
           <span className="text-sm text-slate-500">Production AI • LLM Evaluation • Governance</span>
-        </div>
+        </Link>
+
       </div>
     </div>
   )
