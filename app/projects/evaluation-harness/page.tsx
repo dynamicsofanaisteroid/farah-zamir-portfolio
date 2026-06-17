@@ -15,10 +15,11 @@ export default function EvaluationHarnessPage() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#301f1f] mt-8 mb-4">The Problem</h2>
         
         <p>
-          Virgin Atlantic’s AI Concierge handles customer queries across web, IVR, and contact centre channels. 
-          While volume metrics (sessions, response times, escalation rates) were available, there was no 
-          systematic way to measure <strong>quality</strong> — whether the agent was actually helping customers, 
-          whether its routing decisions were appropriate, or where it was creating friction.
+          A major UK aviation company’s production AI customer service agent handles queries across web, IVR, 
+          and contact centre channels. While volume metrics (sessions, response times, escalation rates) were 
+          available, there was no systematic way to measure <strong>quality</strong> — whether the agent was 
+          actually helping customers, whether its routing decisions were appropriate, or where it was creating 
+          friction.
         </p>
 
         <p>
@@ -35,7 +36,7 @@ export default function EvaluationHarnessPage() {
         
         <p>
           I designed and delivered a <strong>governance-first LLM-as-a-Judge evaluation harness</strong> that 
-          scores real customer conversations across 11 quality dimensions. The system processes 7M+ DataDog 
+          scores real customer conversations across 11 quality dimensions. The system processes over 7 million 
           telemetry spans, reconstructs complete customer journeys, and produces structured, auditable insights 
           about where the agent succeeds and where it fails.
         </p>
@@ -58,11 +59,11 @@ export default function EvaluationHarnessPage() {
         <div className="space-y-4 pl-4">
           <div>
             <strong className="text-[#301f1f]">Three-Column Escalation Model</strong><br />
-            Instead of asking the judge “was the response good?”, the harness measures whether the <em>routing decision</em> was appropriate. It captures three factual and inferred signals: which routing agents were considered, where the customer was actually sent, and whether that decision was correct given the conversation context.
+            Instead of asking the judge “was the response good?”, the harness measures whether the <em>routing decision</em> was appropriate. It captures three signals: which routing agents were considered, where the customer was actually sent, and whether that decision was correct given the conversation context.
           </div>
           <div>
             <strong className="text-[#301f1f]">Factual Grounding for the Judge</strong><br />
-            The LLM judge receives structured telemetry signals (escalation actions, outcomes) alongside the conversation text. This dramatically reduces hallucination and produces more defensible assessments than text-only evaluation.
+            The LLM judge receives structured telemetry signals (escalation actions and outcomes) alongside the conversation text. This dramatically reduces hallucination and produces more defensible assessments than text-only evaluation.
           </div>
           <div>
             <strong className="text-[#301f1f]">Span-to-Conversation Translation + Noise Filtering</strong><br />
