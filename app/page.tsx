@@ -38,6 +38,9 @@ export default function Home() {
           governance framework that identified and mitigated significant risks in agent
           tooling.
           </p>
+          <p>
+            🏛️ Before entering AI, I spent nearly *eight years* in cultural heritage and public sector information management. I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart - and my background makes me dedicated to conservation, preservation, and building systems designed to stand up to scrutiny over time. 
+          </p>
         </div>
       </div>
 
