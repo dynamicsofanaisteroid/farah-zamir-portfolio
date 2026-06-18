@@ -25,10 +25,19 @@ export default function AboutPage() {
           I’m particularly interested in technical AI governance, agent safety, and sustainable AI infrastructure. I’m currently developing ideas around neuro-inspired, energy-proportional agent systems that prioritise minimal resource use, strong auditability, and built-in safeguards. You can read more about this in my Synapse Warehouse proposal.
         </p>
         
-        <p>
-          My goal is to further my knowledge through AI Fellowships dedicated to using AI for Public Good; including preventing risks posed by AI, as well as exploring ways I can apply my engineering experience with a preservation-oriented mindset to help organisations deploy AI responsibly - especially in high-stakes or public-interest contexts. Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day.
-        </p>
-      </div>
+        {/* Goals / Direction - Highlighted */}
+<div className="mt-8 bg-[#f0f7f0] border border-[#7bbd83] rounded-xl p-6">
+  <p className="text-[15.5px] leading-relaxed text-slate-700">
+    My goal is to further my knowledge through AI Fellowships dedicated to using AI for Public Good; 
+    including preventing risks posed by AI, as well as exploring ways I can apply my engineering 
+    experience with a preservation-oriented mindset to help organisations deploy AI responsibly — 
+    especially in high-stakes or public-interest contexts.
+  </p>
+  
+  <p className="text-[15.5px] leading-relaxed text-slate-600 mt-4">
+    Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day.
+  </p>
+</div>      </div>
     </div>
   )
 }
