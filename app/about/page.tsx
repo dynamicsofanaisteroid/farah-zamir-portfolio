@@ -35,7 +35,7 @@ export default function AboutPage() {
   </p>
   
   <p className="text-[15.5px] leading-relaxed text-slate-600 mt-4">
-    Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day. 🌳
+    Outside of work, I enjoy indie video games, cooking up a storm, and walking in the woodlands I hope to help conserve one day. 🌳
   </p>
 </div>      </div>
     </div>
