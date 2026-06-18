@@ -11,12 +11,11 @@ export default function AboutPage() {
 
       <div className="space-y-6 text-slate-700 leading-relaxed text-[15px]">
         <p>
-          Hi, I’m Farah. I’m an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. My work centres on creating systems that are not only effective, but genuinely safe, auditable, and sustainable at scale.
+          Hi, I’m Farah! I’m an AI Engineer focused on building evaluation infrastructure and governance frameworks for agentic AI systems. My work centres on creating systems that are not only effective, but genuinely safe, auditable, and sustainable at scale.
         </p>
         
         <p>
-          Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart - this background gave me a deep appreciation for accountability, risk, and building systems designed to stand up to scrutiny over time.
-        </p>
+          🏛️ Before entering AI, I spent nearly eight years in cultural heritage and public sector information management. I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart - and my background makes me dedicated to conservation, preservation, and building systems designed to stand up to scrutiny over time.         </p>
         
         <p>
           At Virgin Atlantic, I designed and delivered a governance-first AI Evaluation Harness for a live agentic AI system, processing millions of conversational interactions while embedding privacy controls, human oversight, and full auditability from the start. I also created the Skills Contract, a pre-execution governance framework that identified and mitigated significant risks in agent tooling.
@@ -27,7 +26,7 @@ export default function AboutPage() {
         </p>
         
         <p>
-          I’m drawn to opportunities where I can combine my engineering experience with a preservation-oriented mindset to help organisations deploy AI responsibly - especially in high-stakes or public-interest contexts. Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day.
+          My goal is to further my knowledge through AI Fellowships dedicated to using AI for Public Good; including preventing risks posed by AI, as well as exploring ways I can apply my engineering experience with a preservation-oriented mindset to help organisations deploy AI responsibly - especially in high-stakes or public-interest contexts. Outside of work, I enjoy indie video games, fishing, and walking in the woodlands I hope to help conserve one day.
         </p>
       </div>
     </div>

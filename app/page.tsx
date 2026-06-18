@@ -38,9 +38,6 @@ export default function Home() {
           governance framework that identified and mitigated significant risks in agent
           tooling.
           </p>
-          <p>
-            🏛️ Before entering AI, I spent nearly *eight years* in cultural heritage and public sector information management. I worked with national archival standards, sensitive data protection, and long-term preservation at institutions including the Parliamentary Archives and the Science Museum Group. I’m still a librarian at heart - and my background makes me dedicated to conservation, preservation, and building systems designed to stand up to scrutiny over time. 
-          </p>
         </div>
       </div>
 
@@ -131,7 +128,15 @@ export default function Home() {
             <p className="text-sm text-slate-600">Synapse Warehouse and work in technical AI governance.</p>
           </Link>
         </div>
-      </div>
-    </div>
+        {/* NEW: About Card */}
+          <Link 
+            href="/about" 
+            className="block p-6 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-[#7bbd83] hover:shadow-md transition-all duration-200"
+          >
+        <div className="font-semibold text-lg tracking-tight mb-1">About</div>
+        <p className="text-sm text-slate-600">My background, my ethos, and what I’m working toward.</p>
+          </Link>
+        </div>
+        </div>
   )
 }
