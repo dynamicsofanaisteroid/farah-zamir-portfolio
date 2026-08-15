@@ -152,7 +152,7 @@ export default function SkillsContractPage() {
           All materials are available in the public GitHub repository:
         </p>
         <ul className="text-[15.5px] text-[#571e38] space-y-1.5">
-          <li>• <a href="https://github.com/dynamicsofanaisteroid/farah-zamir-portfolio" target="_blank" className="underline hover:text-[#1e5721]">GitHub Repository</a> (Skills Contract notebook, validation analysis, risk brief template)</li>
+          <li>• <a href="https://github.com/dynamicsofanaisteroid/farah-zamir-portfolio" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#1e5721]">GitHub Repository</a> (Skills Contract notebook, validation analysis, risk brief template)</li>
           <li>• Skills Contract validation notebook (full technical assessment)</li>
           <li>• Risk analysis of ai-dev-kit Spark Declarative Pipelines skill</li>
           <li>• Pre-execution sign-off template and examples</li>

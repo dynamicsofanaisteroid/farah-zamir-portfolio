@@ -18,7 +18,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Farah Zamir",
-  description: "AI Engineer focused on evaluation infrastructure and technical AI governance.",
+  description: "AI Engineer focused on automation, evaluation infrastructure, and technical AI governance.",
 };
 
 export default function RootLayout({

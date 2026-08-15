@@ -28,9 +28,9 @@ export default function ContactPage() {
         </a>
         
         <div className="flex flex-col gap-3 text-lg">
-          <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" className="hover:underline">LinkedIn</a>
-          <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" className="hover:underline">Substack</a>
-          <a href="https://github.com/dynamicsofanaisteroid" target="_blank" className="hover:underline">GitHub</a>
+          <a href="https://www.linkedin.com/in/farah-zamir-956659144" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
+          <a href="https://dynamicsofanaisteroid.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Substack</a>
+          <a href="https://github.com/dynamicsofanaisteroid" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
         </div>
       </div>
     </div>

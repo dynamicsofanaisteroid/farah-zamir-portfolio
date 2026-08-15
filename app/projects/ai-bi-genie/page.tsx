@@ -93,7 +93,7 @@ export default function AiBiGeniePage() {
           Key materials from this work (generalised for public sharing):
         </p>
         <ul className="text-[15.5px] text-[#571e38] space-y-1.5">
-          <li>• <a href="https://github.com/dynamicsofanaisteroid/farah-zamir-portfolio" target="_blank" className="underline hover:text-[#1e5721]">GitHub Repository</a> (generalised templates and examples)</li>
+          <li>• <a href="https://github.com/dynamicsofanaisteroid/farah-zamir-portfolio" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#1e5721]">GitHub Repository</a> (generalised templates and examples)</li>
           <li>• “Make Your Own Genie Kit” – structured framework and documentation</li>
           <li>• Feedback & Version Control processes</li>
           <li>• Benchmarking and QA methodology</li>

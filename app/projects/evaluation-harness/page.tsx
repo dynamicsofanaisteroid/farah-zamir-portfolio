@@ -127,7 +127,7 @@ export default function EvaluationHarnessPage() {
           Full technical documentation, notebooks, session plans, and handover materials are available in the repository:
         </p>
         <ul className="text-[15.5px] text-[#571e38] space-y-1.5">
-          <li>• <a href="https://github.com/dynamicsofanaisteroid/farah-zamir-portfolio" target="_blank" className="underline hover:text-[#1e5721]">GitHub Repository</a></li>
+          <li>• <a href="https://github.com/dynamicsofanaisteroid/farah-zamir-portfolio" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#1e5721]">GitHub Repository</a></li>
           <li>• Complete Evaluation Harness notebook (F03) with end-to-end pipeline</li>
           <li>• F01 Pipeline Skill (data contract and normalisation layer)</li>
           <li>• Detailed session plan and technical decision records</li>
