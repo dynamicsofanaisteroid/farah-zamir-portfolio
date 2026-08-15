@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Gauge, ShieldCheck, Sparkles, Wheat, KeyRound, ChevronRight } from "lucide-react"
 
 export default function Home() {
   return (
@@ -77,45 +78,79 @@ export default function Home() {
 
       {/* Key Work */}
       <div className="max-w-4xl mx-auto px-6 py-10">
-        <h2 className="text-3xl font-semibold tracking-tight mb-6" style={{ color: '#1e5721' }}>
+        <h2 className="text-3xl font-semibold tracking-tight mb-2" style={{ color: '#1e5721' }}>
           Key Work
         </h2>
+        <p className="text-sm text-slate-500 mb-6">
+          Selected outcomes — rows with an arrow link through to the full write-up.
+        </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
-          <div className="p-5 border border-slate-200 rounded-2xl">
-            <div className="font-semibold text-lg tracking-tight mb-2">AI Evaluation Harness</div>
-            <p className="text-slate-600">
-              Designed and delivered a governance-first evaluation harness for a live agentic AI system at Virgin Atlantic.
-              Processes millions of conversational spans with built-in privacy controls, human oversight, and full auditability.
-            </p>
-          </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
-            <div className="font-semibold text-lg tracking-tight mb-2">Skills Contract &amp; Risk Audit</div>
-            <p className="text-slate-600">
-              Conducted a full risk audit of a widely-deployed Databricks agent toolkit and built a pre-execution governance framework.
-              Blocked production use on five of six critical risk criteria and escalated findings to senior leadership.
-            </p>
-          </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
-            <div className="font-semibold text-lg tracking-tight mb-2">AI/BI Genie (Company-wide)</div>
-            <p className="text-slate-600">
-              Designed and shipped an internal AI/BI analytics tool from scratch. Achieved 100% benchmark accuracy before rollout
-              and saw it adopted as the organisational standard across Virgin Atlantic.
-            </p>
-          </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
-            <div className="font-semibold text-lg tracking-tight mb-2">OpenAI Alpha Skills Review</div>
-            <p className="text-slate-600">
-              Invited by Virgin Atlantic’s VP of Data &amp; AI to join a confidential OpenAI alpha channel for agent skills development.
-              Personally flagged governance risks and worked directly with OpenAI technical partners.
-            </p>
-          </div>
-          <div className="p-5 border border-slate-200 rounded-2xl">
-            <div className="font-semibold text-lg tracking-tight mb-2">Buero Bull</div>
-            <p className="text-slate-600">
-              Solo-built retrieval app that turns UK farm compliance and grants guidance into plain English,
-              grounded in ingested GOV.UK sources with visible verification dates.
-            </p>
+        <div className="border border-slate-200 rounded-2xl divide-y divide-slate-200 overflow-hidden">
+          <Link
+            href="/projects/evaluation-harness"
+            className="group flex items-center gap-4 px-5 py-4 hover:bg-slate-50 transition-colors"
+          >
+            <div className="shrink-0 w-10 h-10 rounded-xl bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center">
+              <Gauge className="w-5 h-5" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-[15px] tracking-tight">AI Evaluation Harness</div>
+              <p className="text-sm text-slate-600">7M+ conversational spans, scored across 11 quality dimensions.</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-[#1e5721] group-hover:translate-x-0.5 transition-all shrink-0" />
+          </Link>
+
+          <Link
+            href="/projects/skills-contract"
+            className="group flex items-center gap-4 px-5 py-4 hover:bg-slate-50 transition-colors"
+          >
+            <div className="shrink-0 w-10 h-10 rounded-xl bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center">
+              <ShieldCheck className="w-5 h-5" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-[15px] tracking-tight">Skills Contract &amp; Risk Audit</div>
+              <p className="text-sm text-slate-600">Blocked 5 of 6 risk checks on a widely-used agent toolkit.</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-[#1e5721] group-hover:translate-x-0.5 transition-all shrink-0" />
+          </Link>
+
+          <Link
+            href="/projects/ai-bi-genie"
+            className="group flex items-center gap-4 px-5 py-4 hover:bg-slate-50 transition-colors"
+          >
+            <div className="shrink-0 w-10 h-10 rounded-xl bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center">
+              <Sparkles className="w-5 h-5" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-[15px] tracking-tight">AI/BI Genie</div>
+              <p className="text-sm text-slate-600">100% benchmark accuracy, adopted company-wide.</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-[#1e5721] group-hover:translate-x-0.5 transition-all shrink-0" />
+          </Link>
+
+          <Link
+            href="/projects/buero-bull"
+            className="group flex items-center gap-4 px-5 py-4 hover:bg-slate-50 transition-colors"
+          >
+            <div className="shrink-0 w-10 h-10 rounded-xl bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center">
+              <Wheat className="w-5 h-5" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-[15px] tracking-tight">Buero Bull</div>
+              <p className="text-sm text-slate-600">Solo-built RAG app, ~2,000 GOV.UK guidance chunks, in production.</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-[#1e5721] group-hover:translate-x-0.5 transition-all shrink-0" />
+          </Link>
+
+          <div className="flex items-center gap-4 px-5 py-4">
+            <div className="shrink-0 w-10 h-10 rounded-xl bg-slate-100 text-slate-500 flex items-center justify-center">
+              <KeyRound className="w-5 h-5" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="font-semibold text-[15px] tracking-tight">OpenAI Alpha Skills Review</div>
+              <p className="text-sm text-slate-600">Invited into a confidential OpenAI alpha for agent skills development.</p>
+            </div>
+            <span className="text-[11px] uppercase tracking-wide text-slate-400 shrink-0">No write-up</span>
           </div>
         </div>
       </div>
