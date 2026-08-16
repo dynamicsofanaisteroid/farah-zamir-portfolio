@@ -32,8 +32,8 @@ export default function AiBiGeniePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#301f1f] mt-8 mb-4">What I Built</h2>
         
         <p>
-          I designed and delivered a production-grade <strong>AI/BI Genie</strong> for market and commercial analytics from the ground up. 
-          The tool achieved <strong>100% benchmark accuracy</strong> before rollout and was adopted as the organisational standard across Virgin Atlantic.
+          Working solo, I designed and delivered a production-grade <strong>AI/BI Genie</strong> for market and commercial analytics from the ground up — stakeholder outreach, prompt logic, benchmarking, and rollout, end to end.
+          The tool achieved <strong>100% benchmark accuracy</strong> before rollout and was adopted as the organisational standard across Virgin Atlantic, selected as the team’s flagship example. I became the informal specialist other teams turned to when building their own.
         </p>
 
         <p>

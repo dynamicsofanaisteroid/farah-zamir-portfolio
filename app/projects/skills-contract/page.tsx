@@ -21,11 +21,14 @@ export default function SkillsContractPage() {
         </p>
 
         <p>
-          While auditing an open-source AI developer toolkit (<code>ai-dev-kit</code>) for use in a production 
-          project, I discovered that several skills had significantly broader and riskier capabilities than 
-          expected. One skill in particular taught the assistant to perform DDL operations — creating, modifying, 
-          and potentially dropping tables — with no guardrails, no PII handling guidance, no audit logging, 
-          and no scope boundaries.
+          I’d been handed an open-source AI developer toolkit (<code>ai-dev-kit</code>) and told to build a
+          production evaluation pipeline on top of it. Before wiring an unreviewed skill library into a system
+          with write access to production tables, I read the source myself and cross-checked it with an
+          AI-assisted review (GitHub Copilot) — no one asked me to; it was the caution that came with not
+          wanting to unleash a destructive agent on a table I couldn’t recover. I found that several skills had
+          significantly broader and riskier capabilities than expected. One skill in particular taught the
+          assistant to perform DDL operations — creating, modifying, and potentially dropping tables — with no
+          guardrails, no PII handling guidance, no audit logging, and no scope boundaries.
         </p>
 
         <p>
@@ -44,9 +47,9 @@ export default function SkillsContractPage() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#301f1f] mt-8 mb-4">What I Built</h2>
         
         <p>
-          I designed and built the <strong>Skills Contract</strong> — a pre-execution governance framework that 
-          forces the AI assistant to evaluate any skill against a structured set of safety constraints 
-          <em>before</em> it is used.
+          I designed and built the <strong>Skills Contract</strong> — solo, before integrating the toolkit any
+          further — a pre-execution governance framework that forces the AI assistant to evaluate any skill
+          against a structured set of safety constraints <em>before</em> it is used.
         </p>
 
         <p>

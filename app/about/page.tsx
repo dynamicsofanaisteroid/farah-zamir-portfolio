@@ -46,11 +46,14 @@ export default function AboutPage() {
               <div className="font-semibold text-slate-900">AI Engineer — Virgin Atlantic</div>
               <div className="text-sm text-slate-500 whitespace-nowrap">Oct 2025 – Jun 2026</div>
             </div>
+            <p className="text-sm text-slate-500 mt-1">
+              No other AI specialists on the team — sole engineer on all three initiatives below.
+            </p>
             <ul className="mt-2 space-y-1.5 text-[15px] text-slate-700 list-disc pl-5">
-              <li>Architected a governance-first AI Evaluation Harness over a privacy-aware Spark pipeline processing 7M+ observability spans.</li>
+              <li>Translated a broad mandate for AI-programme-wide evaluation into a working AI Evaluation Harness, architected solo end-to-end — including a privacy-aware Spark pipeline over 7M+ observability spans.</li>
               <li>Diagnosed a telemetry parsing issue that cut NULL rates from ~80% to ~20%, then cut downstream validation from ~23 minutes to sub-minute.</li>
-              <li>Audited an agent-skills toolkit, found a path to destructive SQL via valid permissions with no audit trail, and built the Skills Contract governance framework in response.</li>
-              <li>Delivered AI/BI Genie end-to-end — 100% benchmark accuracy, adopted as the organisational standard.</li>
+              <li>Proactively audited an agent-skills toolkit before integrating it, found a path to destructive SQL via valid permissions with no audit trail, and built the Skills Contract governance framework in response — applied it to every skill built afterward.</li>
+              <li>Built AI/BI Genie solo end-to-end, from stakeholder outreach to a reusable enablement kit — selected as the team’s flagship example, and became the informal specialist other teams turned to.</li>
             </ul>
           </div>
 

@@ -34,10 +34,13 @@ export default function EvaluationHarnessPage() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#301f1f] mt-8 mb-4">What I Built</h2>
         
         <p>
-          I designed and delivered a <strong>governance-first LLM-as-a-Judge evaluation harness</strong> that 
-          scores real customer conversations across 11 quality dimensions. The system processes 7M+ DataDog 
-          telemetry spans, reconstructs complete customer journeys, and produces structured, auditable insights 
-          about where the agent succeeds and where it fails.
+          I was the only engineer assigned to this initiative. The brief I started from was broad — an
+          evaluation capability for the company’s wider AI programme — and translating that into a scoped,
+          working product was as much the job as building it. I designed and delivered a <strong>governance-first
+          LLM-as-a-Judge evaluation harness</strong> that scores real customer conversations across 11 quality
+          dimensions, co-building with Codex and orchestrating the pipeline through Azure DevOps. The system
+          processes 7M+ DataDog telemetry spans, reconstructs complete customer journeys, and produces
+          structured, auditable insights about where the agent succeeds and where it fails.
         </p>
 
         <p>
