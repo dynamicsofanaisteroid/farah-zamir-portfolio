@@ -27,27 +27,37 @@ export default function Home() {
 
         <div className="max-w-3xl space-y-5 text-[15.5px] leading-[1.7] text-slate-700">
           <p>
-           I’m an AI Engineer focused on building evaluation infrastructure, automation, and governance frameworks for agentic AI systems. My work centres on creating
-          systems that are not only effective, but genuinely safe, auditable, and
-          sustainable at scale.
+            I’m an AI Engineer focused on building evaluation infrastructure, automation, and governance
+            frameworks for agentic AI systems. My work centres on creating systems that are not only
+            effective, but <strong className="text-slate-900">genuinely safe, auditable, and sustainable at scale</strong>.
           </p>
           <p>
-            At Virgin Atlantic, I designed and delivered a governance-first AI Evaluation
-          Harness for a live agentic AI system, processing millions of conversational
-          interactions while embedding privacy controls, human oversight, and full
-          auditability from the start. I also created the Skills Contract, a pre-execution
-          governance framework that identified and mitigated significant risks in agent
-          tooling.
+            At Virgin Atlantic, I designed and delivered a governance-first <strong className="text-slate-900">AI Evaluation Harness</strong> for
+            a live agentic AI system, processing millions of conversational interactions while embedding
+            privacy controls, human oversight, and full auditability from the start. I also created the{" "}
+            <strong className="text-slate-900">Skills Contract</strong>, a pre-execution governance framework that identified and
+            mitigated significant risks in agent tooling.
           </p>
           <p>
-            Alongside that, I like building things end-to-end myself — most recently Buero
-          Bull, a retrieval-grounded app that translates UK farm compliance and grants
-          guidance into plain English for English farmers. I think the same discipline that
-          makes production AI systems safe — structured outputs, auditable pipelines, honest
-          failure modes — is also what makes them genuinely useful, and I care about applying
-          that where it does public good.
+            Alongside that, I like building things end-to-end myself — most recently{" "}
+            <strong className="text-slate-900">Buero Bull</strong>, a retrieval-grounded app that translates UK farm compliance
+            and grants guidance into plain English for English farmers. I think the same discipline that
+            makes production AI systems safe — structured outputs, auditable pipelines, honest failure
+            modes — is also what makes them genuinely useful, and I care about applying that where it does
+            public good.
           </p>
         </div>
+
+        <Link
+          href="/about"
+          className="group flex items-center gap-4 mt-8 max-w-md px-5 py-4 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-[#1e5721] hover:shadow-md transition-all duration-200"
+        >
+          <div className="flex-1 min-w-0">
+            <div className="font-semibold text-[15px] tracking-tight">More about me</div>
+            <p className="text-sm text-slate-600">Background, ethos, full experience, and how I build.</p>
+          </div>
+          <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-[#1e5721] group-hover:translate-x-0.5 transition-all shrink-0" />
+        </Link>
       </div>
 
       {/* My Approach + Illustration */}
@@ -176,14 +186,6 @@ export default function Home() {
           >
             <div className="font-semibold text-lg tracking-tight mb-1">Research</div>
             <p className="text-sm text-slate-600">Synapse Warehouse and work in technical AI governance.</p>
-          </Link>
-
-          <Link
-            href="/about"
-            className="block p-6 border border-slate-200 rounded-2xl bg-slate-50 hover:bg-white hover:border-[#1e5721] hover:shadow-md transition-all duration-200"
-          >
-            <div className="font-semibold text-lg tracking-tight mb-1">About</div>
-            <p className="text-sm text-slate-600">My background, my ethos, and what I’m working toward.</p>
           </Link>
         </div>
       </div>
