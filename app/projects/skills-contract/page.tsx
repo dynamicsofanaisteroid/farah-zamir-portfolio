@@ -29,11 +29,13 @@ export default function SkillsContractPage() {
         </p>
 
         <p>
-          More concerningly, I identified a structural vulnerability: <strong>malicious skills</strong> can be 
-          written as innocent-looking markdown files. Because skills generate code that the <em>user</em> then 
-          executes (rather than the assistant executing directly), many platform safeguards are bypassed. 
-          The audit log simply shows “user ran code” — with no record that the code originated from an external, 
-          untrusted source.
+          More concerningly, I identified a structural vulnerability: <strong>malicious skills</strong> can be
+          written as innocent-looking markdown files. I demonstrated a scenario where malicious skill instructions
+          could cause a user to execute destructive SQL using their own valid permissions — no authentication
+          bypass required. Because skills generate code that the <em>user</em> then executes (rather than the
+          assistant executing directly), many platform safeguards are bypassed. The audit log simply shows
+          “user ran code” — with no evidence distinguishing generated code from user-written code, and no record
+          that it originated from an external, untrusted source.
         </p>
       </div>
 

@@ -69,6 +69,10 @@ export default function EvaluationHarnessPage() {
             Raw observability data contains fragments, system prompts, and internal routing spans. The harness filters these natively in Spark before evaluation, so the judge sees clean, complete customer journeys rather than noise.
           </div>
           <div>
+            <strong className="text-[#301f1f]">Pipeline Reliability &amp; Performance</strong><br />
+            Diagnosed a telemetry parsing issue that cut NULL rates in the canonical schema from ~80% to ~20%, then introduced caching and materialisation that cut downstream validation from ~23 minutes to sub-minute execution.
+          </div>
+          <div>
             <strong className="text-[#301f1f]">Product Adapter Pattern</strong><br />
             A small configuration block controls product name, taxonomy, and escalation signals. This makes the harness reusable across different AI products without rewriting core logic.
           </div>
