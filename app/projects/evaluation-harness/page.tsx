@@ -93,8 +93,8 @@ export default function EvaluationHarnessPage() {
         <div className="bg-white border border-[#e8d7b5] rounded-xl p-6 my-6">
           <p className="font-medium text-[#301f1f] mb-2">Core Insight: Under-escalation is a quantified risk.</p>
           <p>
-            46.5% of sessions had no escalation. This cohort had the <strong>lowest average quality score (3.54/5)</strong> 
-            and the <strong>highest frustration rate (14%)</strong>. In contrast, sessions routed to topic-specific 
+            46.5% of sessions had no escalation. This cohort had the <strong>lowest average quality score (3.54/5)</strong>{" "}
+            and the <strong>highest frustration rate (14%)</strong>. In contrast, sessions routed to topic-specific
             queues scored 4.0–4.5 with zero frustration.
           </p>
           <p className="mt-3 text-sm">
@@ -115,8 +115,8 @@ export default function EvaluationHarnessPage() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#301f1f] mt-8 mb-4">Impact & Why It Matters</h2>
         
         <p>
-          This work demonstrates how to build <strong>trustworthy, governance-aware evaluation infrastructure</strong> 
-          for production agentic systems. By grounding the LLM judge in factual telemetry signals and enforcing 
+          This work demonstrates how to build <strong>trustworthy, governance-aware evaluation infrastructure</strong>{" "}
+          for production agentic systems. By grounding the LLM judge in factual telemetry signals and enforcing
           clear data contracts, the harness produces defensible, auditable results rather than opaque scores.
         </p>
 

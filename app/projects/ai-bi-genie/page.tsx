@@ -48,7 +48,7 @@ export default function AiBiGeniePage() {
         <h2 className="text-2xl font-semibold tracking-tight text-[#301f1f] mt-8 mb-4">Key Approach & Innovations</h2>
         
         <p>
-          Rather than treating Genie development as a one-off technical exercise, I focused on building <strong>repeatable, governed processes</strong> 
+          Rather than treating Genie development as a one-off technical exercise, I focused on building <strong>repeatable, governed processes</strong>{" "}
           that could scale across the organisation.
         </p>
 

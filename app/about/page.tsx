@@ -4,7 +4,9 @@ import {
   SquareTerminal,
   Terminal,
   Bot,
+  Code2,
   Database,
+  Infinity as InfinityIcon,
   Plug,
   Network,
   Workflow,
@@ -136,9 +138,23 @@ export default function AboutPage() {
 
           <div className="group flex items-center gap-2 border border-slate-200 rounded-full pl-2 pr-4 py-2 hover:border-[#1e5721] hover:bg-[#eaf3ea] transition-colors">
             <div className="w-7 h-7 rounded-full bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <Code2 className="w-4 h-4" />
+            </div>
+            <span className="text-sm font-medium text-slate-700">GitHub Copilot</span>
+          </div>
+
+          <div className="group flex items-center gap-2 border border-slate-200 rounded-full pl-2 pr-4 py-2 hover:border-[#1e5721] hover:bg-[#eaf3ea] transition-colors">
+            <div className="w-7 h-7 rounded-full bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
               <Database className="w-4 h-4" />
             </div>
             <span className="text-sm font-medium text-slate-700">Databricks</span>
+          </div>
+
+          <div className="group flex items-center gap-2 border border-slate-200 rounded-full pl-2 pr-4 py-2 hover:border-[#1e5721] hover:bg-[#eaf3ea] transition-colors">
+            <div className="w-7 h-7 rounded-full bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <InfinityIcon className="w-4 h-4" />
+            </div>
+            <span className="text-sm font-medium text-slate-700">Azure DevOps</span>
           </div>
 
           <div className="group flex items-center gap-2 border border-slate-200 rounded-full pl-2 pr-4 py-2 hover:border-[#1e5721] hover:bg-[#eaf3ea] transition-colors">
