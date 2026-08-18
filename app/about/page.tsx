@@ -74,6 +74,19 @@ export default function AboutPage() {
 
           <div>
             <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5">
+              <div className="font-semibold text-slate-900">Oxford College Matchmaker — Independent Project</div>
+              <div className="text-sm text-slate-500 whitespace-nowrap">2026</div>
+            </div>
+            <ul className="mt-2 space-y-1.5 text-[15px] text-slate-700 list-disc pl-5">
+              <li>Built and hardened an end-to-end Power Platform prototype (Copilot Studio, Power Automate, Power Apps) applying the same AI-confined-to-interpretation, human-in-the-loop design principle used elsewhere in this portfolio to a different toolchain.</li>
+            </ul>
+            <Link href="/projects/oxford-college-matchmaker" className="inline-block text-sm font-medium text-[#1e5721] hover:underline mt-1.5">
+              Full write-up →
+            </Link>
+          </div>
+
+          <div>
+            <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5">
               <div className="font-semibold text-slate-900">AI Chatbot Trainer — Data Annotation AI</div>
               <div className="text-sm text-slate-500 whitespace-nowrap">Mar 2025 – Oct 2025</div>
             </div>
@@ -171,12 +184,11 @@ export default function AboutPage() {
             <span className="text-sm font-medium text-slate-700">MCP &amp; connectors</span>
           </div>
 
-          <div className="group flex items-center gap-2 border border-dashed border-slate-300 rounded-full pl-2 pr-4 py-2">
-            <div className="w-7 h-7 rounded-full bg-slate-100 text-slate-500 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+          <div className="group flex items-center gap-2 border border-slate-200 rounded-full pl-2 pr-4 py-2 hover:border-[#1e5721] hover:bg-[#eaf3ea] transition-colors">
+            <div className="w-7 h-7 rounded-full bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
               <Workflow className="w-4 h-4" />
             </div>
-            <span className="text-sm font-medium text-slate-500">Power Platform / Copilot Studio</span>
-            <span className="text-[10px] uppercase tracking-wide text-slate-400 ml-0.5">learning</span>
+            <span className="text-sm font-medium text-slate-700">Power Platform / Copilot Studio</span>
           </div>
         </div>
 

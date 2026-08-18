@@ -11,6 +11,10 @@ import {
   SquareTerminal,
   Bot,
   Plug,
+  Workflow,
+  MessageSquare,
+  Zap,
+  AppWindow,
 } from "lucide-react"
 
 export default function ProjectsPage() {
@@ -136,6 +140,36 @@ export default function ProjectsPage() {
             </span>
             <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-600 bg-slate-50 border border-slate-200 rounded-full px-2 py-1">
               <Bot className="w-3 h-3" /> Grok
+            </span>
+          </div>
+        </Link>
+
+        {/* Oxford College Matchmaker */}
+        <Link
+          href="/projects/oxford-college-matchmaker"
+          className="group flex flex-col border border-slate-200 rounded-2xl p-6 hover:border-[#1e5721] hover:shadow-md transition-all duration-200"
+        >
+          <div className="flex items-start justify-between gap-3 mb-4">
+            <div className="w-10 h-10 rounded-xl bg-[#eaf3ea] text-[#1e5721] flex items-center justify-center shrink-0">
+              <Workflow className="w-5 h-5" />
+            </div>
+            <span className="text-xs font-medium text-[#1e5721] bg-[#eaf3ea] rounded-full px-2.5 py-1 whitespace-nowrap">Power Platform</span>
+          </div>
+          <h3 className="text-xl font-semibold mb-2 group-hover:text-[#1e5721] transition-colors">Oxford College Matchmaker</h3>
+          <p className="text-slate-600 text-[15px] leading-relaxed flex-1">
+            A personal end-to-end Power Platform prototype — AI confined to interpretation only,{" "}
+            <strong className="text-slate-800">deterministic execution</strong>, and a real human approval
+            gate before anything is marked recommended.
+          </p>
+          <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-slate-100">
+            <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-600 bg-slate-50 border border-slate-200 rounded-full px-2 py-1">
+              <MessageSquare className="w-3 h-3" /> Copilot Studio
+            </span>
+            <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-600 bg-slate-50 border border-slate-200 rounded-full px-2 py-1">
+              <Zap className="w-3 h-3" /> Power Automate
+            </span>
+            <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-600 bg-slate-50 border border-slate-200 rounded-full px-2 py-1">
+              <AppWindow className="w-3 h-3" /> Power Apps
             </span>
           </div>
         </Link>
